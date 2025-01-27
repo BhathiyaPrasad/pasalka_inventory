@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
+
+
 {
     'name' : 'Owl Tutorial',
     'version' : '1.0',
+    'author': 'WireApps',
     'summary': 'OWL Tutorial Custom Dashboard',
     'sequence': -1,
     'description': """OWL Tutorial Custom Dashboard""",
@@ -16,9 +19,9 @@
     'application': True,
     'assets': {
         'web.assets_backend': [
-            'odoo_custom_dashboard/static/src/components/**/*.js',
-            'odoo_custom_dashboard/static/src/components/**/*.xml',
-            'odoo_custom_dashboard/static/src/components/**/*.scss',
+            'odoo_custom_dashboard-master/static/src/components/*.js',
+            'odoo_custom_dashboard-master/static/src/components/*.xml',
+            'odoo_custom_dashboard-master/static/src/components/**/*.scss',
         ],
     },
 }
