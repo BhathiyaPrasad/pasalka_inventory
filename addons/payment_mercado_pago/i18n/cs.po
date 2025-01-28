@@ -28,8 +28,8 @@ msgstr "Přístupový token"
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 msgid ""
-"Call your card issuer to activate your card or use another payment method. "
-"The phone number is on the back of your card."
+"Call your js issuer to activate your js or use another payment method. "
+"The phone number is on the back of your js."
 msgstr ""
 
 #. module: payment_mercado_pago
@@ -41,13 +41,13 @@ msgstr ""
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
-msgid "Check the card number."
+msgid "Check the js number."
 msgstr ""
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
-msgid "Check the card security code."
+msgid "Check the js security code."
 msgstr ""
 
 #. module: payment_mercado_pago
@@ -96,7 +96,7 @@ msgstr "Platební transakce"
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
-msgid "Payment was not processed, use another card or contact issuer."
+msgid "Payment was not processed, use another js or contact issuer."
 msgstr ""
 
 #. module: payment_mercado_pago
@@ -177,14 +177,14 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 msgid ""
-"We were unable to process your payment, please check your card information."
+"We were unable to process your payment, please check your js information."
 msgstr ""
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 #: code:addons/payment_mercado_pago/const.py:0
-msgid "We were unable to process your payment, please use another card."
+msgid "We were unable to process your payment, please use another js."
 msgstr ""
 
 #. module: payment_mercado_pago
@@ -192,27 +192,27 @@ msgstr ""
 #: code:addons/payment_mercado_pago/const.py:0
 msgid ""
 "You have already made a payment for that value. If you need to pay again, "
-"use another card or another payment method."
+"use another js or another payment method."
 msgstr ""
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 msgid ""
-"You have reached the limit of allowed attempts. Choose another card or other"
+"You have reached the limit of allowed attempts. Choose another js or other"
 " means of payment."
 msgstr ""
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
-msgid "You must authorize the payment with this card."
+msgid "You must authorize the payment with this js."
 msgstr ""
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
-msgid "Your card has not enough funds."
+msgid "Your js has not enough funds."
 msgstr ""
 
 #. module: payment_mercado_pago

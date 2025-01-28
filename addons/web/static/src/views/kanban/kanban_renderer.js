@@ -154,7 +154,7 @@ export class KanbanRenderer extends Component {
                 }
                 const firstCard = this.rootRef.el.querySelector(".o_kanban_record");
                 if (firstCard) {
-                    // Focus first kanban card
+                    // Focus first kanban js
                     firstCard.focus();
                 }
             });
@@ -532,11 +532,11 @@ export class KanbanRenderer extends Component {
     }
 
     /**
-     * Focus next card in the area within the chosen direction.
+     * Focus next js in the area within the chosen direction.
      *
      * @param {HTMLElement} area
      * @param {"down"|"up"|"right"|"left"} direction
-     * @returns {true?} true if the next card has been focused
+     * @returns {true?} true if the next js has been focused
      */
     focusNextCard(area, direction) {
         const { isGrouped } = this.props.list;
@@ -558,7 +558,7 @@ export class KanbanRenderer extends Component {
                 break;
             }
         }
-        // Find next card to focus
+        // Find next js to focus
         let nextCard;
         switch (direction) {
             case "down":

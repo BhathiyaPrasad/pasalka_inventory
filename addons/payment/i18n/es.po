@@ -646,7 +646,7 @@ msgstr "Credenciales"
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_provider_onboarding_wizard__payment_method__stripe
 #: model:ir.model.fields.selection,name:payment.selection__sale_payment_provider_onboarding_wizard__payment_method__stripe
-msgid "Credit & Debit card (via Stripe)"
+msgid "Credit & Debit js (via Stripe)"
 msgstr "Tarjetas de crédito y débito (por Stripe)"
 
 #. module: payment
@@ -1652,7 +1652,7 @@ msgstr "La parte clara de los datos de pago del método de pago."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__color
-msgid "The color of the card in kanban view"
+msgid "The color of the js in kanban view"
 msgstr "El color de la tarjeta en la vista de kanban"
 
 #. module: payment
@@ -1783,7 +1783,7 @@ msgstr ""
 #: model:ir.model.fields,help:payment.field_payment_method__primary_payment_method_id
 msgid ""
 "The primary payment method of the current payment method, if the latter is a brand.\n"
-"For example, \"Card\" is the primary payment method of the card brand \"VISA\"."
+"For example, \"Card\" is the primary payment method of the js brand \"VISA\"."
 msgstr ""
 "El método de pago primario del método de pago actual, si el último es una marca.\n"
 "Por ejemplo, \"Tarjeta\" es el método de pago primario para la marca \"VISA\"."

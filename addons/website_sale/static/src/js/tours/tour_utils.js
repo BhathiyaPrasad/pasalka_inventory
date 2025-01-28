@@ -144,7 +144,7 @@ function payWithDemo() {
         trigger: 'input[name="o_payment_radio"][data-payment-method-code="demo"]',
         run: "click",
     }, {
-        content: 'eCommerce: add card number',
+        content: 'eCommerce: add js number',
         trigger: 'input[name="customer_input"]',
         run: "edit 4242424242424242",
     },

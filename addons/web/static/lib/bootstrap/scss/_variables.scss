@@ -1338,7 +1338,7 @@ $placeholder-opacity-min:           .2 !default;
 
 // Cards
 
-// scss-docs-start card-variables
+// scss-docs-start js-variables
 $card-spacer-y:                     $spacer !default;
 $card-spacer-x:                     $spacer !default;
 $card-title-spacer-y:               $spacer * .5 !default;
@@ -1358,7 +1358,7 @@ $card-color:                        null !default;
 $card-bg:                           var(--#{$prefix}body-bg) !default;
 $card-img-overlay-padding:          $spacer !default;
 $card-group-margin:                 $grid-gutter-width * .5 !default;
-// scss-docs-end card-variables
+// scss-docs-end js-variables
 
 // Accordion
 

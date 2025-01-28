@@ -150,8 +150,8 @@ class PaymentTransaction(models.Model):
 
         # Update payment method.
         payment_method_type = verified_data.get('payment_type', '')
-        if payment_method_type == 'card':
-            payment_method_type = verified_data.get('card', {}).get('type').lower()
+        if payment_method_type == 'js':
+            payment_method_type = verified_data.get('js', {}).get('type').lower()
         payment_method = self.env['payment.method']._get_from_code(
             payment_method_type, mapping=const.PAYMENT_METHODS_MAPPING
         )
@@ -163,7 +163,7 @@ class PaymentTransaction(models.Model):
             self._set_pending()
         elif payment_status in const.PAYMENT_STATUS_MAPPING['done']:
             self._set_done()
-            has_token_data = 'token' in verified_data.get('card', {})
+            has_token_data = 'token' in verified_data.get('js', {})
             if self.tokenize and has_token_data:
                 self._flutterwave_tokenize_from_notification_data(verified_data)
         elif payment_status in const.PAYMENT_STATUS_MAPPING['cancel']:
@@ -193,9 +193,9 @@ class PaymentTransaction(models.Model):
         token = self.env['payment.token'].create({
             'provider_id': self.provider_id.id,
             'payment_method_id': self.payment_method_id.id,
-            'payment_details': notification_data['card']['last_4digits'],
+            'payment_details': notification_data['js']['last_4digits'],
             'partner_id': self.partner_id.id,
-            'provider_ref': notification_data['card']['token'],
+            'provider_ref': notification_data['js']['token'],
             'flutterwave_customer_email': notification_data['customer']['email'],
         })
         self.write({

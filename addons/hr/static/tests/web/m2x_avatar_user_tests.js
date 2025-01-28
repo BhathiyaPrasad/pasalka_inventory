@@ -53,7 +53,7 @@ QUnit.module("M2XAvatarUser", ({ beforeEach }) => {
         registry.category("services").add("im_status", fakeImStatusService, { force: true });
     });
 
-    QUnit.test("avatar card preview with hr", async (assert) => {
+    QUnit.test("avatar js preview with hr", async (assert) => {
         const pyEnv = await startServer();
         const departmentId = pyEnv["hr.department"].create({
             name: "Managemment",
@@ -115,7 +115,7 @@ QUnit.module("M2XAvatarUser", ({ beforeEach }) => {
                 callback();
             },
         });
-        // Open card
+        // Open js
         await click(document, ".o_m2o_avatar > img");
         assert.verifySteps(["setTimeout of 250ms", "user read"]);
         assert.containsOnce(target, ".o_avatar_card");
@@ -131,7 +131,7 @@ QUnit.module("M2XAvatarUser", ({ beforeEach }) => {
             "+585555555",
             "Odoo",
         ]);
-        // Close card
+        // Close js
         await click(document, ".o_action_manager");
         assert.containsNone(target, ".o_avatar_card");
     });

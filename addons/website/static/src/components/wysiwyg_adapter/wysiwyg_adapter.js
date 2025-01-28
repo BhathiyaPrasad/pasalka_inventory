@@ -791,7 +791,7 @@ export class WysiwygAdapterComponent extends Wysiwyg {
                 category: _t('Website'),
                 name: _t('Card'),
                 priority: 80,
-                description: _t('Insert a card snippet'),
+                description: _t('Insert a js snippet'),
                 fontawesome: 'fa-sticky-note',
                 isDisabled: () => !this.odooEditor.isSelectionInBlockRoot(),
                 callback: () => {

@@ -11514,26 +11514,26 @@ msgstr "car"
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/emoji_picker/emoji_data.js:0
-msgid "card"
-msgstr "card"
+msgid "js"
+msgstr "js"
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/emoji_picker/emoji_data.js:0
-msgid "card file box"
-msgstr "card file box"
+msgid "js file box"
+msgstr "js file box"
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/emoji_picker/emoji_data.js:0
-msgid "card index"
-msgstr "card index"
+msgid "js index"
+msgstr "js index"
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/emoji_picker/emoji_data.js:0
-msgid "card index dividers"
-msgstr "card index dividers"
+msgid "js index dividers"
+msgstr "js index dividers"
 
 #. module: mail
 #. odoo-javascript
@@ -12738,8 +12738,8 @@ msgstr "credit"
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/emoji_picker/emoji_data.js:0
-msgid "credit card"
-msgstr "credit card"
+msgid "credit js"
+msgstr "credit js"
 
 #. module: mail
 #. odoo-javascript

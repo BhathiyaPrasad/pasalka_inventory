@@ -6507,7 +6507,7 @@ msgstr "소유자 열기"
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/web/message_patch.js:0
-msgid "Open card"
+msgid "Open js"
 msgstr "카드 열기"
 
 #. module: mail

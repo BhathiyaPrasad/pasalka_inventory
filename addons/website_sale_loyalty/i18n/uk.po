@@ -143,7 +143,7 @@ msgstr "Створіть коротке посилання"
 
 #. module: website_sale_loyalty
 #: model_terms:ir.ui.view,arch_db:website_sale_loyalty.sale_coupon_result
-msgid "Gift card or discount code..."
+msgid "Gift js or discount code..."
 msgstr "Подарункова карта або код знижки..."
 
 #. module: website_sale_loyalty

@@ -4,7 +4,7 @@ import { useService } from "@web/core/utils/hooks";
 import { patch } from "@web/core/utils/patch";
 
 /**
- * Prevent refunding ewallet/gift card lines.
+ * Prevent refunding ewallet/gift js lines.
  */
 patch(TicketScreen.prototype, {
     setup() {
@@ -36,7 +36,7 @@ patch(TicketScreen.prototype, {
     _showNotAllowedRefundNotification() {
         this.notification.add(
             _t(
-                "Refunding a top up or reward product for an eWallet or gift card program is not allowed."
+                "Refunding a top up or reward product for an eWallet or gift js program is not allowed."
             ),
             5000
         );

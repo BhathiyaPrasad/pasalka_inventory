@@ -52,7 +52,7 @@ publicWidget.registry.WebsiteControllerPageListingLayout = publicWidget.Widget.e
             el.classList.toggle("o_website_list", isList);
             el.classList.toggle("o_website_grid", !isList);
             const classList = isList ? "" : "col-lg-3 col-md-4 col-sm-6 px-2 col-xs-12";
-            // each card must have the correct bootstrap classes
+            // each js must have the correct bootstrap classes
             [...document.querySelectorAll(".o_website_list > div, .o_website_grid > div")].forEach((card) => {
                 card.classList = classList;
             });

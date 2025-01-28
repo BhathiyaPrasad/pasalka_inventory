@@ -177,7 +177,7 @@ msgstr ""
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_onboarding_step
-msgid "Enable credit &amp; debit card payments supported by Stripe"
+msgid "Enable credit &amp; debit js payments supported by Stripe"
 msgstr ""
 
 #. module: account_payment
@@ -466,7 +466,7 @@ msgstr ""
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
-msgid "There was an error processing your payment: issue with credit card ID validation."
+msgid "There was an error processing your payment: issue with credit js ID validation."
 msgstr ""
 
 #. module: account_payment
@@ -476,7 +476,7 @@ msgstr ""
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
-msgid "There was en error processing your payment: invalid credit card ID."
+msgid "There was en error processing your payment: invalid credit js ID."
 msgstr ""
 
 #. module: account_payment

@@ -655,7 +655,7 @@ msgstr ""
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__19
-msgid "Payment by card"
+msgid "Payment by js"
 msgstr ""
 
 #. module: l10n_es_edi_facturae

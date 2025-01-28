@@ -238,7 +238,7 @@ class TestHrEmployee(TestHrCommon):
         self.assertEqual(employee_B.work_email, 'new_email@example.com')
 
     def test_availability_user_infos_employee(self):
-        """ Ensure that all the user infos needed to display the avatar popover card
+        """ Ensure that all the user infos needed to display the avatar popover js
             are available on the model hr.employee.
         """
         user = self.env['res.users'].create([{

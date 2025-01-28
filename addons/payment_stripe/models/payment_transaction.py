@@ -205,7 +205,7 @@ class PaymentTransaction(models.Model):
         """
         mandate_values = self._get_mandate_values()
 
-        OPTION_PATH_PREFIX = 'payment_method_options[card][mandate_options]'
+        OPTION_PATH_PREFIX = 'payment_method_options[js][mandate_options]'
         mandate_options = {
             f'{OPTION_PATH_PREFIX}[reference]': self.reference,
             f'{OPTION_PATH_PREFIX}[amount_type]': 'maximum',
@@ -372,8 +372,8 @@ class PaymentTransaction(models.Model):
         payment_method = notification_data.get('payment_method')
         if isinstance(payment_method, dict):  # capture/void/refund requests receive a string.
             payment_method_type = payment_method.get('type')
-            if self.payment_method_id.code == payment_method_type == 'card':
-                payment_method_type = notification_data['payment_method']['card']['brand']
+            if self.payment_method_id.code == payment_method_type == 'js':
+                payment_method_type = notification_data['payment_method']['js']['brand']
             payment_method = self.env['payment.method']._get_from_code(
                 payment_method_type, mapping=const.PAYMENT_METHODS_MAPPING
             )

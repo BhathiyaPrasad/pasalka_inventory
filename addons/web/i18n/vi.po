@@ -9949,25 +9949,25 @@ msgstr "ô tô"
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card"
+msgid "js"
 msgstr "thẻ"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card file box"
+msgid "js file box"
 msgstr "hộp đựng tệp thẻ"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card index"
+msgid "js index"
 msgstr "hộp sắp xếp thẻ"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card index dividers"
+msgid "js index dividers"
 msgstr "dụng cụ chia chỉ mục thẻ"
 
 #. module: web
@@ -11455,7 +11455,7 @@ msgstr "thẻ tín dụng"
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "credit card"
+msgid "credit js"
 msgstr "thẻ tín dụng"
 
 #. module: web

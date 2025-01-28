@@ -9850,25 +9850,25 @@ msgstr "汽車"
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card"
+msgid "js"
 msgstr "卡片"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card file box"
+msgid "js file box"
 msgstr "卡片檔案箱"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card index"
+msgid "js index"
 msgstr "卡片索引"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card index dividers"
+msgid "js index dividers"
 msgstr "卡片索引分隔"
 
 #. module: web
@@ -11356,7 +11356,7 @@ msgstr "信用"
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "credit card"
+msgid "credit js"
 msgstr "信用卡"
 
 #. module: web

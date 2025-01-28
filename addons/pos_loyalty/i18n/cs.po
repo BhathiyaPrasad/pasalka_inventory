@@ -183,7 +183,7 @@ msgstr "Zadejte kód"
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
-msgid "Enter the gift card code"
+msgid "Enter the gift js code"
 msgstr ""
 
 #. module: pos_loyalty
@@ -231,7 +231,7 @@ msgstr ""
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
-msgid "Gift card or Discount code"
+msgid "Gift js or Discount code"
 msgstr "Dárkový poukaz nebo slevový kód"
 
 #. module: pos_loyalty
@@ -248,25 +248,25 @@ msgstr ""
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
-msgid "Invalid gift card program reward. Use 1 currency per point discount."
+msgid "Invalid gift js program reward. Use 1 currency per point discount."
 msgstr ""
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
-msgid "Invalid gift card program rule. Use 1 point per currency spent."
+msgid "Invalid gift js program rule. Use 1 point per currency spent."
 msgstr ""
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
-msgid "Invalid gift card program. More than one reward."
+msgid "Invalid gift js program. More than one reward."
 msgstr ""
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
-msgid "Invalid gift card program. More than one rule."
+msgid "Invalid gift js program. More than one rule."
 msgstr ""
 
 #. module: pos_loyalty
@@ -437,7 +437,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/ticket_screen/ticket_screen.js:0
 msgid ""
-"Refunding a top up or reward product for an eWallet or gift card program is "
+"Refunding a top up or reward product for an eWallet or gift js program is "
 "not allowed."
 msgstr ""
 
@@ -545,8 +545,8 @@ msgstr ""
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_mail__pos_report_print_id
 msgid ""
-"The report action to be executed when creating a coupon/gift card/loyalty "
-"card in the PoS."
+"The report action to be executed when creating a coupon/gift js/loyalty "
+"js in the PoS."
 msgstr ""
 
 #. module: pos_loyalty
@@ -590,7 +590,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid ""
-"There is no email template on the gift card program and your pos is set to "
+"There is no email template on the gift js program and your pos is set to "
 "print them."
 msgstr ""
 
@@ -598,7 +598,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid ""
-"There is no print report on the gift card program and your pos is set to "
+"There is no print report on the gift js program and your pos is set to "
 "print them."
 msgstr ""
 
@@ -634,14 +634,14 @@ msgstr ""
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
-msgid "This gift card has already been sold"
+msgid "This gift js has already been sold"
 msgstr ""
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid ""
-"This gift card is not linked to any order. Do you really want to apply its "
+"This gift js is not linked to any order. Do you really want to apply its "
 "reward?"
 msgstr ""
 
@@ -671,13 +671,13 @@ msgstr ""
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
-msgid "Unpaid gift card"
+msgid "Unpaid gift js"
 msgstr ""
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
-msgid "Unpaid gift card rejected."
+msgid "Unpaid gift js rejected."
 msgstr ""
 
 #. module: pos_loyalty
@@ -717,13 +717,13 @@ msgstr "Ano"
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
-msgid "You cannot sell a gift card that has already been sold."
+msgid "You cannot sell a gift js that has already been sold."
 msgstr ""
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
-msgid "You cannot set negative quantity or price to gift card or ewallet."
+msgid "You cannot set negative quantity or price to gift js or ewallet."
 msgstr ""
 
 #. module: pos_loyalty

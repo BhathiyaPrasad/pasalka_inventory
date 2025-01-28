@@ -6651,7 +6651,7 @@ msgstr "Otwórz właściciela"
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/web/message_patch.js:0
-msgid "Open card"
+msgid "Open js"
 msgstr "Otwarta karta"
 
 #. module: mail

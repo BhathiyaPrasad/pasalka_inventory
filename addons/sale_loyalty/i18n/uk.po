@@ -171,7 +171,7 @@ msgstr "Подарункові картки та електронний гама
 
 #. module: sale_loyalty
 #: model:ir.model.fields,help:sale_loyalty.field_sale_order_line__points_cost
-msgid "How much point this reward costs on the loyalty card."
+msgid "How much point this reward costs on the loyalty js."
 msgstr "Скільки балів коштує ця винагорода на картці лояльності."
 
 #. module: sale_loyalty
@@ -246,7 +246,7 @@ msgstr "Мульти-товар"
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid ""
-"No card found for this loyalty program and no points will be given with this"
+"No js found for this loyalty program and no points will be given with this"
 " order."
 msgstr ""
 "Не знайдено жодної картки для цієї програми лояльності, і за це замовлення "

@@ -539,7 +539,7 @@ class Event(models.Model):
         res['default_opengraph']['og:image'] = res['default_twitter']['twitter:image'] = event_cover_properties.get('background-image', 'none')[4:-1].strip("'")
         res['default_opengraph']['og:title'] = res['default_twitter']['twitter:title'] = self.name
         res['default_opengraph']['og:description'] = res['default_twitter']['twitter:description'] = self.subtitle
-        res['default_twitter']['twitter:card'] = 'summary'
+        res['default_twitter']['twitter:js'] = 'summary'
         res['default_meta_description'] = self.subtitle
         return res
 

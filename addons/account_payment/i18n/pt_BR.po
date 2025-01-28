@@ -180,7 +180,7 @@ msgstr ""
 
 #. module: account_payment
 #: model:onboarding.onboarding.step,description:account_payment.onboarding_onboarding_step_payment_provider
-msgid "Enable credit & debit card payments supported by Stripe."
+msgid "Enable credit & debit js payments supported by Stripe."
 msgstr ""
 "Habilite pagamentos com cartão de crédito e débito suportados pelo Stripe."
 
@@ -508,7 +508,7 @@ msgstr "Houve um erro ao processar seu pagamento: fatura inválida."
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
 msgid ""
-"There was an error processing your payment: issue with credit card ID "
+"There was an error processing your payment: issue with credit js ID "
 "validation."
 msgstr ""
 "Houve um erro no processamento do seu pagamento: problema com a validação da"
@@ -521,7 +521,7 @@ msgstr "Houve um erro ao processar seu pagamento: a transação falhou.<br/>"
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
-msgid "There was en error processing your payment: invalid credit card ID."
+msgid "There was en error processing your payment: invalid credit js ID."
 msgstr ""
 "Houve um erro ao processar seu pagamento: ID de cartão de crédito inválida."
 

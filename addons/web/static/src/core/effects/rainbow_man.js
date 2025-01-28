@@ -12,7 +12,7 @@ import { Component, useEffect, useExternalListener, useState } from "@odoo/owl";
  * @property {string} [imgUrl] URL of the image to be displayed
  *
  * @typedef Simple
- * @property {string} message Message to be displayed on rainbowman card
+ * @property {string} message Message to be displayed on rainbowman js
  *
  * @typedef Custom
  * @property {typeof import("@odoo/owl").Component} Component

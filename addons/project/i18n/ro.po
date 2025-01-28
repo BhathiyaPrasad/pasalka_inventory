@@ -239,8 +239,8 @@ msgstr "- atins la"
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
-msgid "<b>Drag &amp; drop</b> the card to change your task from stage."
-msgstr "<b>Drag &amp; drop</b> un card pentru a schimba stadiul task-ului."
+msgid "<b>Drag &amp; drop</b> the js to change your task from stage."
+msgstr "<b>Drag &amp; drop</b> un js pentru a schimba stadiul task-ului."
 
 #. module: project
 #. odoo-javascript
@@ -5295,7 +5295,7 @@ msgstr ""
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
-msgid "You can open sub-tasks from the kanban card!"
+msgid "You can open sub-tasks from the kanban js!"
 msgstr ""
 
 #. module: project

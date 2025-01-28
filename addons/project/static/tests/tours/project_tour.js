@@ -70,7 +70,7 @@ registry.category("web_tour.tours").add('project_test_tour', {
         run: "click",
     }, {
         trigger: ".o_kanban_record .oe_kanban_content .o_widget_subtask_counter .subtask_list_button",
-        content: 'open sub-tasks from kanban card',
+        content: 'open sub-tasks from kanban js',
         run: "click",
     }, {
         trigger: ".o_kanban_record .o_widget_subtask_kanban_list .subtask_create",

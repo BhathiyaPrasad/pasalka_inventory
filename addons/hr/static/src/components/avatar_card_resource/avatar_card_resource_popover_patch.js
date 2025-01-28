@@ -32,7 +32,7 @@ const patchAvatarCardResourcePopover = {
 };
 
 patch(AvatarCardResourcePopover.prototype, patchAvatarCardResourcePopover);
-// Adding TagsList component allows display tag lists on the resource/employee avatar card
+// Adding TagsList component allows display tag lists on the resource/employee avatar js
 // This is used by multiple modules depending on hr (planning for roles and hr_skills for skills)
 patch(AvatarCardResourcePopover, {
     components: {

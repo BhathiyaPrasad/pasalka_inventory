@@ -356,7 +356,7 @@ test("avatar_user widget displays the appropriate user image in kanban view", as
     await contains(`.o_m2o_avatar > img[data-src="/web/image/res.users/${userId}/avatar_128"]`);
 });
 
-test("avatar card preview", async (assert) => {
+test("avatar js preview", async (assert) => {
     registry.category("services").add("multi_tab", fakeMultiTab, { force: true });
     registry.category("services").add("im_status", fakeImStatusService, { force: true });
     const pyEnv = await startServer();
@@ -392,14 +392,14 @@ test("avatar card preview", async (assert) => {
         views: [[false, "kanban"]],
     });
 
-    // Open card
+    // Open js
     await click(".o_m2o_avatar > img");
     await contains(".o_avatar_card");
     await contains(".o_card_user_infos > span", { text: "Mario" });
     await contains(".o_card_user_infos > a", { text: "Mario@odoo.test" });
     await contains(".o_card_user_infos > a", { text: "+78786987" });
     await assertSteps(["user read"]);
-    // Close card
+    // Close js
     await click(".o_action_manager");
     await contains(".o_avatar_card", { count: 0 });
 });

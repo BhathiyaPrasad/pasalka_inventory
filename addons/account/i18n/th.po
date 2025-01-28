@@ -4688,7 +4688,7 @@ msgstr "เครดิตในใบแจ้งหนี้"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
-msgid "Credit card"
+msgid "Credit js"
 msgstr "บัตรเครดิต"
 
 #. module: account
@@ -9129,7 +9129,7 @@ msgstr "ป้อนข้อมูลด้วยตนเอง"
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_line_ids
 msgid ""
 "Manual: Get paid by any method outside of Odoo.\n"
-"Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
+"Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a js thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
@@ -9156,7 +9156,7 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_line_id
 msgid ""
 "Manual: Pay or Get paid by any method outside of Odoo.\n"
-"Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
+"Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a js thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Check: Pay bills by check and print it from Odoo.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"

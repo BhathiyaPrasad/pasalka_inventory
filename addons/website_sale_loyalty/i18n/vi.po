@@ -140,7 +140,7 @@ msgstr "Tạo link rút gọn"
 
 #. module: website_sale_loyalty
 #: model_terms:ir.ui.view,arch_db:website_sale_loyalty.sale_coupon_result
-msgid "Gift card or discount code..."
+msgid "Gift js or discount code..."
 msgstr "Thẻ quà tặng hoặc mã giảm giá..."
 
 #. module: website_sale_loyalty

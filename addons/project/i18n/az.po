@@ -162,7 +162,7 @@ msgstr ""
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
-msgid "<b>Drag &amp; drop</b> the card to change your task from stage."
+msgid "<b>Drag &amp; drop</b> the js to change your task from stage."
 msgstr ""
 
 #. module: project

@@ -180,7 +180,7 @@ msgstr ""
 
 #. module: account_payment
 #: model:onboarding.onboarding.step,description:account_payment.onboarding_onboarding_step_payment_provider
-msgid "Enable credit & debit card payments supported by Stripe."
+msgid "Enable credit & debit js payments supported by Stripe."
 msgstr "Bật thanh toán thẻ tín dụng & ghi nợ được hỗ trợ bởi Stripe."
 
 #. module: account_payment
@@ -504,7 +504,7 @@ msgstr "Đã xảy ra lỗi khi xử lý thanh toán của bạn: hóa đơn kh�
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
 msgid ""
-"There was an error processing your payment: issue with credit card ID "
+"There was an error processing your payment: issue with credit js ID "
 "validation."
 msgstr ""
 "Đã xảy ra lỗi khi xử lý thanh toán của bạn: ID thẻ tín dụng không hợp lệ."
@@ -516,7 +516,7 @@ msgstr "Đã xảy ra lỗi khi xử lý thanh toán của bạn: giao dịch b�
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
-msgid "There was en error processing your payment: invalid credit card ID."
+msgid "There was en error processing your payment: invalid credit js ID."
 msgstr ""
 "Đã xảy ra lỗi khi xử lý thanh toán của bạn: ID thẻ tín dụng không hợp lệ."
 

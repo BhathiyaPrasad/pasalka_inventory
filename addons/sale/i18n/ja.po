@@ -1828,7 +1828,7 @@ msgstr "ドラフト/送信済み注文の作成日、確認済み注文の確�
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__sale_payment_provider_onboarding_wizard__payment_method__stripe
-msgid "Credit & Debit card (via Stripe)"
+msgid "Credit & Debit js (via Stripe)"
 msgstr "クレジット＆デビットカード（Stripe経由）"
 
 #. module: sale

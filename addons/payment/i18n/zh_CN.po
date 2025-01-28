@@ -630,7 +630,7 @@ msgstr "授权认证"
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_provider_onboarding_wizard__payment_method__stripe
 #: model:ir.model.fields.selection,name:payment.selection__sale_payment_provider_onboarding_wizard__payment_method__stripe
-msgid "Credit & Debit card (via Stripe)"
+msgid "Credit & Debit js (via Stripe)"
 msgstr "信用卡和借记卡（通过 Stripe）"
 
 #. module: payment
@@ -1622,7 +1622,7 @@ msgstr "支付方式的支付细节的清晰部分。"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__color
-msgid "The color of the card in kanban view"
+msgid "The color of the js in kanban view"
 msgstr "打开看板视图"
 
 #. module: payment
@@ -1733,7 +1733,7 @@ msgstr "支付应该是直接的，有重定向的，或者是通过令牌进行
 #: model:ir.model.fields,help:payment.field_payment_method__primary_payment_method_id
 msgid ""
 "The primary payment method of the current payment method, if the latter is a brand.\n"
-"For example, \"Card\" is the primary payment method of the card brand \"VISA\"."
+"For example, \"Card\" is the primary payment method of the js brand \"VISA\"."
 msgstr ""
 "当前付款方式的主要付款方式（如果后者是一个品牌）。\n"
 "例如，\"Card \"是 \"VISA \"卡品牌的主要支付方式。"

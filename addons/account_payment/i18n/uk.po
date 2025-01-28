@@ -179,7 +179,7 @@ msgstr ""
 
 #. module: account_payment
 #: model:onboarding.onboarding.step,description:account_payment.onboarding_onboarding_step_payment_provider
-msgid "Enable credit & debit card payments supported by Stripe."
+msgid "Enable credit & debit js payments supported by Stripe."
 msgstr ""
 "Увімкніть платежі кредитними та дебетовими картками, які підтримує Stripe."
 
@@ -508,7 +508,7 @@ msgstr ""
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
 msgid ""
-"There was an error processing your payment: issue with credit card ID "
+"There was an error processing your payment: issue with credit js ID "
 "validation."
 msgstr ""
 "Під час обробки вашого платежу виникла помилка: перевірте ID кредитної "
@@ -522,7 +522,7 @@ msgstr ""
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
-msgid "There was en error processing your payment: invalid credit card ID."
+msgid "There was en error processing your payment: invalid credit js ID."
 msgstr ""
 "Під час обробки вашого платежу сталася помилка: недійсний ID кредитної "
 "картки."

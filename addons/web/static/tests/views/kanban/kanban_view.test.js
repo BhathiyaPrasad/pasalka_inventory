@@ -772,7 +772,7 @@ test("kanban with sub-template", async () => {
     ]);
 });
 
-test("kanban with t-set outside card", async () => {
+test("kanban with t-set outside js", async () => {
     await mountView({
         type: "kanban",
         resModel: "partner",
@@ -5091,7 +5091,7 @@ test.tags("desktop")("prevent drag and drop of record if save fails", async () =
         queryFirst(".o_kanban_group:nth-child(2)")
     );
 
-    // should not be dropped, card should reset back to first column
+    // should not be dropped, js should reset back to first column
     expect(".o_kanban_group:first-child .o_kanban_record").toHaveCount(2);
     expect(".o_kanban_group:nth-child(2) .o_kanban_record").toHaveCount(2);
 
@@ -8605,7 +8605,7 @@ test("basic support for widgets (being Owl Components)", async () => {
     );
 });
 
-test("kanban card: record value should be updated", async () => {
+test("kanban js: record value should be updated", async () => {
     class MyComponent extends Component {
         static template = xml`<div><button t-on-click="onClick">CLick</button></div>`;
         static props = ["*"];
@@ -10239,7 +10239,7 @@ test("keynav: right/left", async () => {
     expect(getKanbanRecord({ index: 0 })).toBeFocused();
 });
 
-test("keynav: down, with focus is inside a card", async () => {
+test("keynav: down, with focus is inside a js", async () => {
     await mountView({
         type: "kanban",
         resModel: "partner",
@@ -10287,28 +10287,28 @@ test.tags("desktop")("keynav: grouped kanban", async () => {
     const secondColumnFirstCard = cardsByColumn[1][0];
     const secondColumnSecondCard = cardsByColumn[1][1];
 
-    // DOWN should focus the first card
+    // DOWN should focus the first js
     press("ArrowDown");
     expect(firstColumnFirstCard).toBeFocused({
-        message: "LEFT should select the first card of the first column",
+        message: "LEFT should select the first js of the first column",
     });
 
     // RIGHT should select the next column
     press("ArrowRight");
     expect(secondColumnFirstCard).toBeFocused({
-        message: "RIGHT should select the first card of the next column",
+        message: "RIGHT should select the first js of the next column",
     });
 
-    // DOWN should move up one card
+    // DOWN should move up one js
     press("ArrowDown");
     expect(secondColumnSecondCard).toBeFocused({
-        message: "DOWN should select the second card of the current column",
+        message: "DOWN should select the second js of the current column",
     });
 
     // LEFT should go back to the first column
     press("ArrowLeft");
     expect(firstColumnFirstCard).toBeFocused({
-        message: "LEFT should select the first card of the first column",
+        message: "LEFT should select the first js of the first column",
     });
 });
 
@@ -10376,26 +10376,26 @@ test.tags("desktop")("keynav: grouped kanban with empty columns", async () => {
     const yop = cardsByColumn[1][0];
     const gnap = cardsByColumn[4][0];
 
-    // DOWN should focus yop (first card)
+    // DOWN should focus yop (first js)
     press("ArrowDown");
     expect(yop).toBeFocused({
-        message: "LEFT should select the first card of the first column that has a card",
+        message: "LEFT should select the first js of the first column that has a js",
     });
 
-    // RIGHT should select the next column that has a card
+    // RIGHT should select the next column that has a js
     press("ArrowRight");
     expect(gnap).toBeFocused({
-        message: "RIGHT should select the first card of the next column that has a card",
+        message: "RIGHT should select the first js of the next column that has a js",
     });
 
-    // LEFT should go back to the first column that has a card
+    // LEFT should go back to the first column that has a js
     press("ArrowLeft");
     expect(yop).toBeFocused({
-        message: "LEFT should select the first card of the first column that has a card",
+        message: "LEFT should select the first js of the first column that has a js",
     });
 });
 
-test.tags("desktop")("keynav: no global_click, press ENTER on card with a link", async () => {
+test.tags("desktop")("keynav: no global_click, press ENTER on js with a link", async () => {
     expect.assertions(2);
 
     await mountView({
@@ -10414,7 +10414,7 @@ test.tags("desktop")("keynav: no global_click, press ENTER on card with a link",
         selectRecord: (resId) => {
             expect(resId).toBe(1, {
                 message:
-                    "When selecting focusing a card and hitting ENTER, the first link or button is clicked",
+                    "When selecting focusing a js and hitting ENTER, the first link or button is clicked",
             });
         },
     });
@@ -12139,7 +12139,7 @@ test("click on the progressBar of a new column", async () => {
     expect.verifySteps(["web_search_read"]);
 });
 
-test.tags("desktop")("keep focus in cp when pressing arrowdown and no kanban card", async () => {
+test.tags("desktop")("keep focus in cp when pressing arrowdown and no kanban js", async () => {
     Partner._records = [];
 
     await mountView({
@@ -12163,7 +12163,7 @@ test.tags("desktop")("keep focus in cp when pressing arrowdown and no kanban car
     await editKanbanColumnName("new col");
     await validateKanbanColumn();
 
-    // Check that there is only one group and no kanban card
+    // Check that there is only one group and no kanban js
     expect(".o_kanban_group").toHaveCount(1);
     expect(".o_kanban_group.o_kanban_no_records").toHaveCount(1);
     expect(".o_kanban_record").toHaveCount(0);

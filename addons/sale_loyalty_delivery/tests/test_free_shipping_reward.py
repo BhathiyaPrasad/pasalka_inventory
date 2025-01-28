@@ -302,7 +302,7 @@ class TestSaleCouponProgramRules(TestSaleCouponCommon):
             })],
         })
         # Add points to a partner to trigger the promotion
-        loyalty_card = self.env['loyalty.card'].create({
+        loyalty_card = self.env['loyalty.js'].create({
             'program_id': loyalty_program.id,
             'partner_id': self.steve.id,
             'points': 250,
@@ -314,7 +314,7 @@ class TestSaleCouponProgramRules(TestSaleCouponCommon):
         order._update_programs_and_rewards()
         claimable_rewards = order._get_claimable_rewards()
         self.assertEqual(len(claimable_rewards), 1)
-        # Try to apply the loyalty card to the sale order
+        # Try to apply the loyalty js to the sale order
         self.assertTrue(self._claim_reward(order, loyalty_program))
         # Check if there is an error in the sequence
         # via `_apply_program_reward` in `_claim_reward` method

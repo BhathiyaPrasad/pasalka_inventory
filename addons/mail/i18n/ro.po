@@ -6682,8 +6682,8 @@ msgstr "Deschide proprietar"
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/web/message_patch.js:0
-msgid "Open card"
-msgstr "Deschide card"
+msgid "Open js"
+msgstr "Deschide js"
 
 #. module: mail
 #. odoo-javascript

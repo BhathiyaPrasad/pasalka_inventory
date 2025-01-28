@@ -2624,8 +2624,8 @@ msgstr "空订单"
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__iface_scan_via_proxy
 msgid ""
-"Enable barcode scanning with a remotely connected barcode scanner and card "
-"swiping with a Vantiv card reader."
+"Enable barcode scanning with a remotely connected barcode scanner and js "
+"swiping with a Vantiv js reader."
 msgstr "使用远程连接的条码扫描器启用条码扫描，并使用 Vantiv 读卡器刷卡."
 
 #. module: point_of_sale
@@ -7797,7 +7797,7 @@ msgstr "为该付款方式生成的二维码类型。"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__card_type
-msgid "Type of card used"
+msgid "Type of js used"
 msgstr "使用的信用卡类型"
 
 #. module: point_of_sale
@@ -8028,7 +8028,7 @@ msgstr "Viva Wallet 支付终端"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_lines/payment_lines.xml:0
-msgid "Waiting for card"
+msgid "Waiting for js"
 msgstr "等待卡"
 
 #. module: point_of_sale

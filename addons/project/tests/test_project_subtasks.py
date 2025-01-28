@@ -233,7 +233,7 @@ class TestProjectSubtasks(TestProjectCommon):
             1) test the creation of sub-tasks through the notebook
             2) set a parent task on an existing task
             3) test the creation of sub-sub-tasks
-            4) check the correct nb of sub-tasks is displayed in the 'sub-tasks' stat button and on the parent task kanban card
+            4) check the correct nb of sub-tasks is displayed in the 'sub-tasks' stat button and on the parent task kanban js
             5) sub-tasks should be copied when the parent task is duplicated
             6) verify if there is a copy in the subtask name.
         """

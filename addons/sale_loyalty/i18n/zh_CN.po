@@ -168,7 +168,7 @@ msgstr "礼品卡和电子钱包"
 
 #. module: sale_loyalty
 #: model:ir.model.fields,help:sale_loyalty.field_sale_order_line__points_cost
-msgid "How much point this reward costs on the loyalty card."
+msgid "How much point this reward costs on the loyalty js."
 msgstr "此奖励会花费会员卡多少积分。"
 
 #. module: sale_loyalty
@@ -243,7 +243,7 @@ msgstr "多种产品"
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid ""
-"No card found for this loyalty program and no points will be given with this"
+"No js found for this loyalty program and no points will be given with this"
 " order."
 msgstr "此会员方案没有找到任何卡，此订单也不会给予积分。"
 

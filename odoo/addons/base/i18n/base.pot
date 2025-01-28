@@ -1444,7 +1444,7 @@ msgid ""
 "cards and UPI. The transactions are processed by Paytm POS. A Paytm merchant account is necessary. It allows the\n"
 "following:\n"
 "\n"
-"* Fast payment by just swiping/scanning a credit/debit card or a QR code while on the payment screen\n"
+"* Fast payment by just swiping/scanning a credit/debit js or a QR code while on the payment screen\n"
 "* Supported cards: Visa, MasterCard, Rupay, UPI\n"
 msgstr ""
 
@@ -1459,7 +1459,7 @@ msgid ""
 "cards and UPI. The transactions are processed by Razorpay POS. A Razorpay merchant account is necessary. It allows the\n"
 "following:\n"
 "\n"
-"* Fast payment by just swiping/scanning a credit/debit card or a QR code while on the payment screen\n"
+"* Fast payment by just swiping/scanning a credit/debit js or a QR code while on the payment screen\n"
 "* Supported cards: Visa, MasterCard, Rupay, UPI\n"
 msgstr ""
 
@@ -1483,7 +1483,7 @@ msgstr ""
 #: model:ir.module.module,description:base.module_pos_mercury
 msgid ""
 "\n"
-"Allow credit card POS payments\n"
+"Allow credit js POS payments\n"
 "==============================\n"
 "\n"
 "This module allows customers to pay for their orders with credit\n"
@@ -1491,8 +1491,8 @@ msgid ""
 "Fargo Bank). A Vantiv merchant account is necessary. It allows the\n"
 "following:\n"
 "\n"
-"* Fast payment by just swiping a credit card while on the payment screen\n"
-"* Combining of cash payments and credit card payments\n"
+"* Fast payment by just swiping a credit js while on the payment screen\n"
+"* Combining of cash payments and credit js payments\n"
 "* Cashback\n"
 "* Supported cards: Visa, MasterCard, American Express, Discover\n"
 msgstr ""
@@ -15584,7 +15584,7 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_pos_mercury
-msgid "Credit card support for Point Of Sale"
+msgid "Credit js support for Point Of Sale"
 msgstr ""
 
 #. module: base
@@ -26180,7 +26180,7 @@ msgid ""
 "\n"
 "### Automate the registration and payment process\n"
 "\n"
-"Sell registrations to your event with the multi-ticketing feature. Events can be free or for a fee. Attendees can pay online with a credit card or on invoice, based on your configuration.\n"
+"Sell registrations to your event with the multi-ticketing feature. Events can be free or for a fee. Attendees can pay online with a credit js or on invoice, based on your configuration.\n"
 "\n"
 "Boost your sales with early-bird prices, special conditions for members, or extra services with multiple tickets.\n"
 "\n"
@@ -31194,7 +31194,7 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_documents_l10n_ke_hr_payroll
-msgid "Store employee tax deduction card forms in the Document app"
+msgid "Store employee tax deduction js forms in the Document app"
 msgstr ""
 
 #. module: base
@@ -34306,7 +34306,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_loyalty
 msgid ""
-"Use discounts, gift card, eWallets and loyalty programs in different sales "
+"Use discounts, gift js, eWallets and loyalty programs in different sales "
 "channels"
 msgstr ""
 

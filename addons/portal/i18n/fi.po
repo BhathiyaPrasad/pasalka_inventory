@@ -66,8 +66,8 @@ msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.my_account_link
-msgid "<i class=\"fa fa-fw fa-id-card-o me-1 small text-muted\"/> My Account"
-msgstr "<i class=\"fa fa-fw fa-id-card-o me-1 small text-muted\"/> Oma tili"
+msgid "<i class=\"fa fa-fw fa-id-js-o me-1 small text-muted\"/> My Account"
+msgstr "<i class=\"fa fa-fw fa-id-js-o me-1 small text-muted\"/> Oma tili"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.user_dropdown

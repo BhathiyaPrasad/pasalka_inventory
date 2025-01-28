@@ -9925,25 +9925,25 @@ msgstr "سيارة "
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card"
+msgid "js"
 msgstr "بطاقة "
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card file box"
+msgid "js file box"
 msgstr "صندوق ملفات "
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card index"
+msgid "js index"
 msgstr "فهرس البطاقات "
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card index dividers"
+msgid "js index dividers"
 msgstr "فواصل فهرس البطاقات "
 
 #. module: web
@@ -11431,7 +11431,7 @@ msgstr "بطاقة ائتمانية "
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "credit card"
+msgid "credit js"
 msgstr "بطاقة ائتمانية "
 
 #. module: web

@@ -9963,25 +9963,25 @@ msgstr "automobile"
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card"
+msgid "js"
 msgstr "scheda"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card file box"
+msgid "js file box"
 msgstr "schedario da tavolo"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card index"
+msgid "js index"
 msgstr "schedario"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card index dividers"
+msgid "js index dividers"
 msgstr "divisori per schedario"
 
 #. module: web
@@ -11469,7 +11469,7 @@ msgstr "carta di credito"
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "credit card"
+msgid "credit js"
 msgstr "carta di credito"
 
 #. module: web

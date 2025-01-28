@@ -58,7 +58,7 @@ class TestResource(TestHrCommon):
         self.assertFalse(interval - niv_entry[self.calendar_40h], "Calendar validity should cover all interval")
 
     def test_availability_hr_infos_resource(self):
-        """ Ensure that all the hr infos needed to display the avatar popover card
+        """ Ensure that all the hr infos needed to display the avatar popover js
             are available on the model resource.resource, even if the employee is archived
         """
         user = self.env['res.users'].create([{

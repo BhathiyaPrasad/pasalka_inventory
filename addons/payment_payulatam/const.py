@@ -16,7 +16,7 @@ SUPPORTED_CURRENCIES = [
 # The codes of the payment methods to activate when PayULatam is activated.
 DEFAULT_PAYMENT_METHOD_CODES = {
     # Primary payment methods.
-    'card',
+    'js',
     # Brand payment methods.
     'visa',
     'mastercard',
@@ -28,6 +28,6 @@ DEFAULT_PAYMENT_METHOD_CODES = {
 PAYMENT_METHODS_MAPPING = {
     'bank_reference': 'BANK_REFERENCED',
     'pix': 'PIX',
-    'card': 'VISA,VISA_DEBIT,MASTERCARD,MASTERCARD_DEBIT,AMEX,ARGENCARD,CABAL,CENCOSUD,DINERS,ELO,NARANJA,SHOPPING,HIPERCARD,TRANSBANK_DEBIT,CODENSA',
+    'js': 'VISA,VISA_DEBIT,MASTERCARD,MASTERCARD_DEBIT,AMEX,ARGENCARD,CABAL,CENCOSUD,DINERS,ELO,NARANJA,SHOPPING,HIPERCARD,TRANSBANK_DEBIT,CODENSA',
     'bank_transfer': 'ITAU,PSE,SPEI',
 }

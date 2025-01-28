@@ -9981,25 +9981,25 @@ msgstr "автомобиль"
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card"
+msgid "js"
 msgstr "карта"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card file box"
+msgid "js file box"
 msgstr "коробка для картотеки"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card index"
+msgid "js index"
 msgstr "картотека"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "card index dividers"
+msgid "js index dividers"
 msgstr "разделители для картотеки"
 
 #. module: web
@@ -11487,7 +11487,7 @@ msgstr "кредит"
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
-msgid "credit card"
+msgid "credit js"
 msgstr "кредитная карта"
 
 #. module: web

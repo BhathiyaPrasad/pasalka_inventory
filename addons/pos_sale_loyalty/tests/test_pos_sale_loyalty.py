@@ -7,7 +7,7 @@ from odoo.tests import tagged
 @tagged("post_install", "-at_install")
 class TestPoSSaleLoyalty(TestPointOfSaleHttpCommon):
     def test_pos_sale_loyalty_1(self):
-        """Test that only one loyalty card is created when settling an unconfirmed order."""
+        """Test that only one loyalty js is created when settling an unconfirmed order."""
         self.env['loyalty.program'].search([]).write({'active': False})
         self.env['loyalty.program'].create({
             'name': 'Test Loyalty Program',
@@ -42,4 +42,4 @@ class TestPoSSaleLoyalty(TestPointOfSaleHttpCommon):
 
         self.main_pos_config.open_ui()
         self.start_pos_tour("PosSaleLoyaltyTour1", login="accountman")
-        self.assertEqual(self.env['loyalty.card'].search_count([('partner_id', '=', self.partner_a.id)]), 1)
+        self.assertEqual(self.env['loyalty.js'].search_count([('partner_id', '=', self.partner_a.id)]), 1)

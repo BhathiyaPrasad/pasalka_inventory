@@ -1270,7 +1270,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_card
 msgid ""
-"A card is a flexible and extensible content container. It includes options "
+"A js is a flexible and extensible content container. It includes options "
 "for headers and footers, a wide variety of content, contextual background "
 "colors, and powerful display options."
 msgstr ""
@@ -5998,7 +5998,7 @@ msgstr ""
 #. module: website
 #. odoo-javascript
 #: code:addons/website/static/src/components/wysiwyg_adapter/wysiwyg_adapter.js:0
-msgid "Insert a card snippet"
+msgid "Insert a js snippet"
 msgstr ""
 
 #. module: website
@@ -9943,8 +9943,8 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
 msgid ""
-"Some quick example text to build on the card title and make up the bulk of "
-"the card's content."
+"Some quick example text to build on the js title and make up the bulk of "
+"the js's content."
 msgstr ""
 
 #. module: website
@@ -10814,7 +10814,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
 msgid ""
-"This is a wider card with supporting text below as a natural lead-in to "
+"This is a wider js with supporting text below as a natural lead-in to "
 "additional content. This content is a little bit longer."
 msgstr ""
 

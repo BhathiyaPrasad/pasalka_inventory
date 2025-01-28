@@ -285,7 +285,7 @@ msgstr "- alcanzado el"
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
-msgid "<b>Drag &amp; drop</b> the card to change your task from stage."
+msgid "<b>Drag &amp; drop</b> the js to change your task from stage."
 msgstr ""
 "<b>Arrastre y suelte</b> la tarjeta para cambiar su tarea desde la etapa."
 
@@ -5646,7 +5646,7 @@ msgstr "Solo se puede establecer una etapa personal en una tarea privada."
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
-msgid "You can open sub-tasks from the kanban card!"
+msgid "You can open sub-tasks from the kanban js!"
 msgstr "Puede abrir las subtareas desde la tarjeta de kanban."
 
 #. module: project

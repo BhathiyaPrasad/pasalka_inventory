@@ -11456,25 +11456,25 @@ msgstr ""
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/emoji_picker/emoji_data.js:0
-msgid "card"
+msgid "js"
 msgstr ""
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/emoji_picker/emoji_data.js:0
-msgid "card file box"
+msgid "js file box"
 msgstr ""
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/emoji_picker/emoji_data.js:0
-msgid "card index"
+msgid "js index"
 msgstr ""
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/emoji_picker/emoji_data.js:0
-msgid "card index dividers"
+msgid "js index dividers"
 msgstr ""
 
 #. module: mail
@@ -12680,7 +12680,7 @@ msgstr ""
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/emoji_picker/emoji_data.js:0
-msgid "credit card"
+msgid "credit js"
 msgstr ""
 
 #. module: mail

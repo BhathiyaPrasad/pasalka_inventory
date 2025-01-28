@@ -2059,7 +2059,7 @@ msgstr "Tyhjä tilaus"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__iface_scan_via_proxy
-msgid "Enable barcode scanning with a remotely connected barcode scanner and card swiping with a Vantiv card reader."
+msgid "Enable barcode scanning with a remotely connected barcode scanner and js swiping with a Vantiv js reader."
 msgstr "Ota käyttöön viivakoodin skannaus etäyhteydellä kytketyllä viivakoodiskannerilla ja kortin pyyhkäisy Vantiv-kortinlukijalla."
 
 #. module: point_of_sale
@@ -6420,7 +6420,7 @@ msgstr "Tyyppi"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__card_type
-msgid "Type of card used"
+msgid "Type of js used"
 msgstr "Käytetyn kortin tyyppi"
 
 #. module: point_of_sale
@@ -6606,7 +6606,7 @@ msgstr "Vantiv-maksupääte"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/xml/Screens/PaymentScreen/PaymentScreenPaymentLines.xml:0
-msgid "Waiting for card"
+msgid "Waiting for js"
 msgstr "Odotetaan korttia"
 
 #. module: point_of_sale

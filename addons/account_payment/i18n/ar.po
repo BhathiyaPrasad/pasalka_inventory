@@ -178,7 +178,7 @@ msgstr "لقد انتهيت، تمت معالجة عملية الدفع عبر �
 
 #. module: account_payment
 #: model:onboarding.onboarding.step,description:account_payment.onboarding_onboarding_step_payment_provider
-msgid "Enable credit & debit card payments supported by Stripe."
+msgid "Enable credit & debit js payments supported by Stripe."
 msgstr ""
 "تمكين الدفع عن طريق البطاقات الائتمانية وبطاقات الخصم المدعومة من قِبَل "
 "Stripe "
@@ -504,7 +504,7 @@ msgstr "حدث خطأ أثناء معالجة عملية الدفع: الفات�
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
 msgid ""
-"There was an error processing your payment: issue with credit card ID "
+"There was an error processing your payment: issue with credit js ID "
 "validation."
 msgstr ""
 "حدث خطأ أثناء معالجة عملية الدفع: هناك مشكلة في تصديق معرف البطاقة "
@@ -517,7 +517,7 @@ msgstr "حدث خطأ أثناء معالجة عملية الدفع: فشلت ا
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
-msgid "There was en error processing your payment: invalid credit card ID."
+msgid "There was en error processing your payment: invalid credit js ID."
 msgstr "حدث خطأ أثناء معالجة عملية الدفع: معرف البطاقة الائتمانية غير صالح. "
 
 #. module: account_payment

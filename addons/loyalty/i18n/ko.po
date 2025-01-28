@@ -155,7 +155,7 @@ msgstr ""
 msgid ""
 "<div style=\"background: #ffffff\">\n"
 "                <div style=\"margin:0px; font-size:24px; font-family:arial, 'helvetica neue', helvetica, sans-serif; line-height:36px; color:#333333; text-align: center\">\n"
-"                    Here is your gift card!\n"
+"                    Here is your gift js!\n"
 "                </div>\n"
 "                <div style=\"padding-top:20px; padding-bottom:20px\">\n"
 "                    <img src=\"/loyalty/static/img/gift_card.png\" style=\"display:block; border:0; outline:none; text-decoration:none; margin:auto;\" width=\"300\">\n"
@@ -482,7 +482,7 @@ msgstr "동일한 코드를 사용 중인 쿠폰이 이미 존재합니다."
 
 #. module: loyalty
 #: model:ir.model.constraint,message:loyalty.constraint_loyalty_card_card_code_unique
-msgid "A coupon/loyalty card must have a unique code."
+msgid "A coupon/loyalty js must have a unique code."
 msgstr "쿠폰/적립 카드에는 고유 코드가 있어야 합니다."
 
 #. module: loyalty
@@ -1188,7 +1188,7 @@ msgstr "기프트 카드"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid ""
-"Gift Cards are created manually or automatically sent by email when the customer orders a gift card product.\n"
+"Gift Cards are created manually or automatically sent by email when the customer orders a gift js product.\n"
 "                                    <br/>\n"
 "                                    Then, Gift Cards can be used to pay orders."
 msgstr ""
@@ -1221,7 +1221,7 @@ msgstr "메시지가 있습니다"
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.gift_card_report
-msgid "Here is your gift card!"
+msgid "Here is your gift js!"
 msgstr "고객님의 기프트 카드를 확인하세요!"
 
 #. module: loyalty
@@ -1736,7 +1736,7 @@ msgstr "주문 후 다음 구매 시 사용할 수 있는 쿠폰 발송"
 
 #. module: loyalty
 #: model:mail.template,description:loyalty.mail_template_gift_card
-msgid "Sent to customer who purchased a gift card"
+msgid "Sent to customer who purchased a gift js"
 msgstr "기프트 카드를 구매한 고객에게 발송"
 
 #. module: loyalty

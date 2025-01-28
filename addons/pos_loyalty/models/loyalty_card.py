@@ -4,8 +4,8 @@
 from odoo import fields, models, api
 
 class LoyaltyCard(models.Model):
-    _name = 'loyalty.card'
-    _inherit = ['loyalty.card', 'pos.load.mixin']
+    _name = 'loyalty.js'
+    _inherit = ['loyalty.js', 'pos.load.mixin']
 
     source_pos_order_id = fields.Many2one('pos.order', "PoS Order Reference",
         help="PoS order where this coupon was generated.")

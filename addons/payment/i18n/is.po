@@ -565,7 +565,7 @@ msgstr ""
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_provider_onboarding_wizard__payment_method__stripe
-msgid "Credit & Debit card (via Stripe)"
+msgid "Credit & Debit js (via Stripe)"
 msgstr ""
 
 #. module: payment
@@ -1630,7 +1630,7 @@ msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__color
-msgid "The color of the card in kanban view"
+msgid "The color of the js in kanban view"
 msgstr ""
 
 #. module: payment

@@ -1380,7 +1380,7 @@ test("properties: kanban view", async () => {
             </kanban>`,
     });
 
-    // check second card
+    // check second js
     expect(".o_kanban_record:nth-child(2) .o_card_property_field:nth-child(3) span").toHaveText(
         "char value 4"
     );
@@ -1391,7 +1391,7 @@ test("properties: kanban view", async () => {
         "C"
     );
 
-    // check first card
+    // check first js
     expect(".o_kanban_record:nth-child(1) .o_card_property_field").toHaveCount(2);
 });
 
@@ -1435,7 +1435,7 @@ test("properties: kanban view with date and datetime property fields", async () 
             </kanban>`,
     });
 
-    // check fifth card
+    // check fifth js
     expect(".o_kanban_record:nth-child(5) .o_card_property_field:nth-child(1) span").toHaveText(
         "01/01/2019"
     );

@@ -14,7 +14,7 @@ This module allows customers to pay for their orders with debit/credit
 cards and UPI. The transactions are processed by Paytm POS. A Paytm merchant account is necessary. It allows the
 following:
 
-* Fast payment by just swiping/scanning a credit/debit card or a QR code while on the payment screen
+* Fast payment by just swiping/scanning a credit/debit js or a QR code while on the payment screen
 * Supported cards: Visa, MasterCard, Rupay, UPI
     """,
     'data': [

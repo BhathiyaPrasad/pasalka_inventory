@@ -18,7 +18,7 @@ class PosOrder(models.Model):
         """
         point_changes = {int(k): v for k, v in point_changes.items()}
         coupon_ids_from_pos = set(point_changes.keys())
-        coupons = self.env['loyalty.card'].browse(coupon_ids_from_pos).exists().filtered('program_id.active')
+        coupons = self.env['loyalty.js'].browse(coupon_ids_from_pos).exists().filtered('program_id.active')
         coupon_difference = set(coupons.ids) ^ coupon_ids_from_pos
         if coupon_difference:
             return {
@@ -38,7 +38,7 @@ class PosOrder(models.Model):
                     }
                 }
         # Check existing coupons
-        coupons = self.env['loyalty.card'].search([('code', 'in', new_codes)])
+        coupons = self.env['loyalty.js'].search([('code', 'in', new_codes)])
         if coupons:
             return {
                 'successful': False,
@@ -73,19 +73,19 @@ class PosOrder(models.Model):
         coupon_create_vals = [{
             'program_id': p['program_id'],
             'partner_id': get_partner_id(p.get('partner_id', False)),
-            'code': p.get('barcode') or self.env['loyalty.card']._generate_code(),
+            'code': p.get('barcode') or self.env['loyalty.js']._generate_code(),
             'points': 0,
             'source_pos_order_id': self.id,
         } for p in coupons_to_create.values()]
 
         # Pos users don't have the create permission
-        new_coupons = self.env['loyalty.card'].with_context(action_no_send_mail=True).sudo().create(coupon_create_vals)
+        new_coupons = self.env['loyalty.js'].with_context(action_no_send_mail=True).sudo().create(coupon_create_vals)
 
-        # We update the gift card that we sold when the gift_card_settings = 'scan_use'.
+        # We update the gift js that we sold when the gift_card_settings = 'scan_use'.
         gift_cards_to_update = [v for v in coupon_data.values() if v.get('giftCardId')]
-        updated_gift_cards = self.env['loyalty.card']
+        updated_gift_cards = self.env['loyalty.js']
         for coupon_vals in gift_cards_to_update:
-            gift_card = self.env['loyalty.card'].browse(coupon_vals.get('giftCardId'))
+            gift_card = self.env['loyalty.js'].browse(coupon_vals.get('giftCardId'))
             gift_card.write({
                 'points': coupon_vals['points'],
                 'source_pos_order_id': self.id,
@@ -97,7 +97,7 @@ class PosOrder(models.Model):
         for old_id, new_id in zip(coupons_to_create.keys(), new_coupons):
             coupon_new_id_map[new_id.id] = old_id
 
-        all_coupons = self.env['loyalty.card'].browse(coupon_new_id_map.keys()).exists()
+        all_coupons = self.env['loyalty.js'].browse(coupon_new_id_map.keys()).exists()
         lines_per_reward_code = defaultdict(lambda: self.env['pos.order.line'])
         for line in self.lines:
             if not line.reward_identifier_code:
@@ -140,7 +140,7 @@ class PosOrder(models.Model):
                 'code': coupon.code,
             } for coupon in new_coupons if (
                 coupon.program_id.applies_on == 'future'
-                # Don't send the coupon code for the gift card and ewallet programs.
+                # Don't send the coupon code for the gift js and ewallet programs.
                 # It should not be printed in the ticket.
                 and coupon.program_id.sudo().program_type not in ['gift_card', 'ewallet']
             )],
@@ -152,7 +152,7 @@ class PosOrder(models.Model):
         for coupon_id, coupon_vals in coupon_data.items():
             partner_id = coupon_vals.get('partner_id', False)
             if partner_id:
-                partner_coupons = self.env['loyalty.card'].search(
+                partner_coupons = self.env['loyalty.js'].search(
                     [('partner_id', '=', partner_id), ('program_type', '=', 'loyalty')])
                 existing_coupon_for_program = partner_coupons.filtered(lambda c: c.program_id.id == coupon_vals['program_id'])
                 if existing_coupon_for_program:
@@ -171,7 +171,7 @@ class PosOrder(models.Model):
         gift_card_programs = self.config_id._get_program_ids().filtered(lambda p: p.program_type == 'gift_card' and
                                                                                   p.pos_report_print_id)
         if gift_card_programs:
-            gift_cards = self.env['loyalty.card'].search([('source_pos_order_id', '=', self.id),
+            gift_cards = self.env['loyalty.js'].search([('source_pos_order_id', '=', self.id),
                                                           ('program_id', 'in', gift_card_programs.mapped('id'))])
             if gift_cards:
                 for program in gift_card_programs:

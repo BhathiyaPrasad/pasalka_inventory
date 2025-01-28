@@ -2705,8 +2705,8 @@ msgstr "Pedido vacío"
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__iface_scan_via_proxy
 msgid ""
-"Enable barcode scanning with a remotely connected barcode scanner and card "
-"swiping with a Vantiv card reader."
+"Enable barcode scanning with a remotely connected barcode scanner and js "
+"swiping with a Vantiv js reader."
 msgstr ""
 "Habilita el escaneo de códigos de barras con un escáner de códigos de barras"
 " conectado de forma remota y el deslizamiento de tarjetas con un lector de "
@@ -8083,7 +8083,7 @@ msgstr "Tipo de código QR a generar para este método de pago."
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__card_type
-msgid "Type of card used"
+msgid "Type of js used"
 msgstr "Tipo de tarjeta utilizada"
 
 #. module: point_of_sale
@@ -8323,7 +8323,7 @@ msgstr "Terminal de pago Viva Wallet"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_lines/payment_lines.xml:0
-msgid "Waiting for card"
+msgid "Waiting for js"
 msgstr "Esperando tarjeta"
 
 #. module: point_of_sale

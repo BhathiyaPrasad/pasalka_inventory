@@ -284,7 +284,7 @@ msgstr "- ถึงเมื่อ"
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
-msgid "<b>Drag &amp; drop</b> the card to change your task from stage."
+msgid "<b>Drag &amp; drop</b> the js to change your task from stage."
 msgstr "<b>ลาก &amp; วาง</b> การ์ดเพื่อเปลี่ยนงานของคุณจากสถานะ"
 
 #. module: project
@@ -5571,7 +5571,7 @@ msgstr "คุณสามารถกำหนดขั้นตอนส่ว
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
-msgid "You can open sub-tasks from the kanban card!"
+msgid "You can open sub-tasks from the kanban js!"
 msgstr "คุณสามารถเปิดงานย่อยได้จากการ์ดคัมบัง!"
 
 #. module: project

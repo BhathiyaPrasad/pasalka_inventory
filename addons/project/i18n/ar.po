@@ -284,7 +284,7 @@ msgstr "- وصل في "
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
-msgid "<b>Drag &amp; drop</b> the card to change your task from stage."
+msgid "<b>Drag &amp; drop</b> the js to change your task from stage."
 msgstr "<b>قم بسحب وإفلات</b> البطاقة لتغيير مرحلة مهمتك. "
 
 #. module: project
@@ -5571,7 +5571,7 @@ msgstr "يمكنك فقط تعيين مرحلة شخصية في مهمة خاص�
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
-msgid "You can open sub-tasks from the kanban card!"
+msgid "You can open sub-tasks from the kanban js!"
 msgstr "يمكنك فتح المهام الفرعية من بطاقة كانبان! "
 
 #. module: project

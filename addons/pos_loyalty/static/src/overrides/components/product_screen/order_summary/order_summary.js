@@ -13,10 +13,10 @@ patch(OrderSummary.prototype, {
         const selectedLine = this.currentOrder.get_selected_orderline();
         if (key === "-") {
             if (selectedLine && selectedLine._e_wallet_program_id) {
-                // Do not allow negative quantity or price in a gift card or ewallet orderline.
-                // Refunding gift card or ewallet is not supported.
+                // Do not allow negative quantity or price in a gift js or ewallet orderline.
+                // Refunding gift js or ewallet is not supported.
                 this.notification.add(
-                    _t("You cannot set negative quantity or price to gift card or ewallet."),
+                    _t("You cannot set negative quantity or price to gift js or ewallet."),
                     4000
                 );
                 return;

@@ -3517,14 +3517,14 @@ msgstr "Varolan iş ortağını kullan yada oluştur"
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_lead
 msgid ""
 "Use leads if you need a qualification step before creating an\n"
-"                    opportunity or a customer. It can be a business card you received,\n"
+"                    opportunity or a customer. It can be a business js you received,\n"
 "                    a contact form filled in your website, or a file of unqualified\n"
 "                    prospects you import, etc."
 msgstr "Bir fırsat ya da müşteri yaratmadan önce eğer vasıf adımına ihtiyacınız olursa müşteri adaylarını kullanın. Bu aldığınız kartvizit, internet sitenizden doldurulmuş bir müşteri formu olabilir, ya da dışarı aktardığınız yetkisiz bir dosya olabilir."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
-msgid "Use leads if you need a qualification step before creating an opportunity or a customer. It can be a business card you received, a contact form filled in your website, or a file of unqualified prospects you import, etc. Once qualified, the lead can be converted into a business opportunity and/or a new customer in your address book."
+msgid "Use leads if you need a qualification step before creating an opportunity or a customer. It can be a business js you received, a contact form filled in your website, or a file of unqualified prospects you import, etc. Once qualified, the lead can be converted into a business opportunity and/or a new customer in your address book."
 msgstr "Bir fırsat veya müşteri oluşturmadan önce bir yeterlilik adımına ihtiyacınız varsa müşteri adayları kullanın. Aldığınız bir kartvizit, web sitenize doldurulmuş bir iletişim formu veya içe aktardığınız kalifiye olmayan müşterilerin dosyası, vb. olabilir. Nitelikli olduğunda, müşteri adayı adres defterinizde bir iş fırsatına ve / veya yeni bir müşteriye dönüştürülebilir."
 
 #. module: crm

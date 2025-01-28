@@ -5289,7 +5289,7 @@ msgstr "Kursus on kättesaadav kõigile : kasutajad ei pea kursuse sisule juurde
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__description_short
-msgid "The description that is displayed on the course card"
+msgid "The description that is displayed on the course js"
 msgstr "Kirjeldus, mis on kuvatud kursuse kaardil"
 
 #. module: website_slides

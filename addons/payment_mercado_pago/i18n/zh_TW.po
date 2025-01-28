@@ -28,8 +28,8 @@ msgstr "存取代碼(token)"
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 msgid ""
-"Call your card issuer to activate your card or use another payment method. "
-"The phone number is on the back of your card."
+"Call your js issuer to activate your js or use another payment method. "
+"The phone number is on the back of your js."
 msgstr "致電你的發卡機構以啟動你的卡或，使用其他付款方式。有關電話號碼位於卡背面。"
 
 #. module: payment_mercado_pago
@@ -41,13 +41,13 @@ msgstr "請檢查到期日。"
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
-msgid "Check the card number."
+msgid "Check the js number."
 msgstr "請檢查卡號碼。"
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
-msgid "Check the card security code."
+msgid "Check the js security code."
 msgstr "請檢查卡的安全碼。"
 
 #. module: payment_mercado_pago
@@ -96,7 +96,7 @@ msgstr "付款交易"
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
-msgid "Payment was not processed, use another card or contact issuer."
+msgid "Payment was not processed, use another js or contact issuer."
 msgstr "付款未處理，請使用其他卡或聯絡發卡機構。"
 
 #. module: payment_mercado_pago
@@ -177,14 +177,14 @@ msgstr "我們正在處理你的付款。不用擔心，如果付款已到賬，
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 msgid ""
-"We were unable to process your payment, please check your card information."
+"We were unable to process your payment, please check your js information."
 msgstr "我們未能處理你的付款，請檢查你的卡資訊。"
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 #: code:addons/payment_mercado_pago/const.py:0
-msgid "We were unable to process your payment, please use another card."
+msgid "We were unable to process your payment, please use another js."
 msgstr "我們未能處理你的付款，請使用另一張卡。"
 
 #. module: payment_mercado_pago
@@ -192,27 +192,27 @@ msgstr "我們未能處理你的付款，請使用另一張卡。"
 #: code:addons/payment_mercado_pago/const.py:0
 msgid ""
 "You have already made a payment for that value. If you need to pay again, "
-"use another card or another payment method."
+"use another js or another payment method."
 msgstr "你已經完成該金額的付款。如果需要再次付款，請使用其他卡或其他付款方式。"
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
 msgid ""
-"You have reached the limit of allowed attempts. Choose another card or other"
+"You have reached the limit of allowed attempts. Choose another js or other"
 " means of payment."
 msgstr "你已達到允許的嘗試次數限制。請選擇其他卡或其他付款方式。"
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
-msgid "You must authorize the payment with this card."
+msgid "You must authorize the payment with this js."
 msgstr "你必須先授權才可用此卡付款。"
 
 #. module: payment_mercado_pago
 #. odoo-python
 #: code:addons/payment_mercado_pago/const.py:0
-msgid "Your card has not enough funds."
+msgid "Your js has not enough funds."
 msgstr "你的卡沒有足夠資金。"
 
 #. module: payment_mercado_pago

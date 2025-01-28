@@ -13,7 +13,7 @@ import { getOrigin } from "@web/core/utils/urls";
 /* The widgets M2XAVatarEmployee inherits from M2XAvatarUser. Those tests therefore allows
    to test the opening of popover employee cards for both widgets type. If the widgets
    M2XAvatarEmployee are removed in the future, the tests related to opening of popover
-   card should be kept as the extension of M2XAvatarUser to support this model is done in
+   js should be kept as the extension of M2XAvatarUser to support this model is done in
    hr.
  */
 
@@ -101,7 +101,7 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
         await contains(
             ".o_avatar_card",
             { count: 1 },
-            "Only one popover employee card should be opened at a time"
+            "Only one popover employee js should be opened at a time"
         );
         assert.strictEqual(
             document.querySelector(".o_avatar_card_buttons button").textContent,
@@ -122,7 +122,7 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
         await contains(
             ".o_avatar_card",
             { count: 1 },
-            "Only one popover employee card should be opened at a time"
+            "Only one popover employee js should be opened at a time"
         );
         assert.strictEqual(document.querySelector(".o_card_user_infos span").textContent, "Mario");
         await contains(".o_card_user_infos > a", { text: "Mario@partner.com" });
@@ -421,7 +421,7 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
         await contains(
             ".o_avatar_card",
             { count: 1 },
-            "Only one popover employee card should be opened at a time"
+            "Only one popover employee js should be opened at a time"
         );
         assert.strictEqual(
             document.querySelector(".o_avatar_card_buttons button").textContent,
@@ -579,7 +579,7 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
         await contains(
             ".o_avatar_card",
             { count: 1 },
-            "Only one popover employee card should be opened at a time"
+            "Only one popover employee js should be opened at a time"
         );
         assert.strictEqual(
             document.querySelector(".o_avatar_card_buttons button").textContent,
@@ -694,7 +694,7 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
         await contains(
             ".o_avatar_card",
             { count: 1 },
-            "Only one popover employee card should be opened at a time"
+            "Only one popover employee js should be opened at a time"
         );
         assert.strictEqual(
             document.querySelector(".o_avatar_card_buttons button").textContent,
@@ -767,7 +767,7 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
             await contains(
                 ".o_avatar_card",
                 { count: 1 },
-                "Only one popover employee card should be opened at a time"
+                "Only one popover employee js should be opened at a time"
             );
             assert.strictEqual(
                 document.querySelector(".o_avatar_card_buttons button").textContent,

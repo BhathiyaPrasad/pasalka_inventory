@@ -101,7 +101,7 @@ SUPPORTED_CURRENCIES = [
 # The codes of the payment methods to activate when Razorpay is activated.
 DEFAULT_PAYMENT_METHOD_CODES = {
     # Primary payment methods.
-    'card',
+    'js',
     'netbanking',
     'upi',
     # Brand payment methods.
@@ -125,7 +125,7 @@ PAYMENT_METHODS_MAPPING = {
 
 # The maximum amount in INR that can be paid through an eMandate.
 MANDATE_MAX_AMOUNT = {
-    'card': 1000000,
+    'js': 1000000,
     'upi': 100000,
 }
 

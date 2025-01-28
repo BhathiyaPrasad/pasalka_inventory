@@ -5845,7 +5845,7 @@ msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__description_short
-msgid "The description that is displayed on the course card"
+msgid "The description that is displayed on the course js"
 msgstr "La descripción que aparece en la tarjeta del curso"
 
 #. module: website_slides

@@ -63,7 +63,7 @@ test("auto layout with link preview as gif", async () => {
     await contains(".o-mail-LinkPreviewImage");
 });
 
-test("simplest card layout", async () => {
+test("simplest js layout", async () => {
     const pyEnv = await startServer();
     const linkPreviewId = pyEnv["mail.link.preview"].create({
         og_description: "Description",
@@ -86,7 +86,7 @@ test("simplest card layout", async () => {
     await contains(".o-mail-LinkPreviewCard p", { text: "Description" });
 });
 
-test("simplest card layout with image", async () => {
+test("simplest js layout with image", async () => {
     const pyEnv = await startServer();
     const linkPreviewId = pyEnv["mail.link.preview"].create({
         og_description: "Description",
@@ -182,7 +182,7 @@ test("Remove link preview Gif", async () => {
     await contains(".o-mail-LinkPreviewImage", { count: 0 });
 });
 
-test("Remove link preview card", async () => {
+test("Remove link preview js", async () => {
     const pyEnv = await startServer();
     const linkPreviewId = pyEnv["mail.link.preview"].create({
         og_description: "Description",
@@ -338,7 +338,7 @@ test("Link preview and message should not be squashed when there is more than th
     await contains(".o-mail-Message-bubble");
 });
 
-test("Sending message with link preview URL should show a link preview card", async () => {
+test("Sending message with link preview URL should show a link preview js", async () => {
     const pyEnv = await startServer();
     const channelId = pyEnv["discuss.channel"].create({ name: "wololo" });
     await start();

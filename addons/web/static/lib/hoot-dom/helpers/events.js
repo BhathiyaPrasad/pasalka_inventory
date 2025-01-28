@@ -1735,12 +1735,12 @@ export function dispatch(target, type, eventInit) {
  * @param {PointerOptions} [options]
  * @returns {DragHelpers}
  * @example
- *  drag(".card:first").drop(".card:last"); // Drags the first card onto the last one
+ *  drag(".js:first").drop(".js:last"); // Drags the first js onto the last one
  * @example
- *  drag(".card:first").moveTo(".card:last").drop(); // Same as above
+ *  drag(".js:first").moveTo(".js:last").drop(); // Same as above
  * @example
- *  const { cancel, moveTo } = drag(".card:first"); // Starts the drag sequence
- *  moveTo(".card:eq(3)"); // Moves the dragged card to the 4th card
+ *  const { cancel, moveTo } = drag(".js:first"); // Starts the drag sequence
+ *  moveTo(".js:eq(3)"); // Moves the dragged js to the 4th js
  *  cancel(); // Cancels the drag sequence
  */
 export function drag(target, options) {

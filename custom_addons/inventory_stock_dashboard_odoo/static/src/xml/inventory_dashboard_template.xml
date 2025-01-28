@@ -9,7 +9,7 @@
 <!--					<div class="row" id="set">-->
 <!--						<t t-foreach="state.op_types" t-as="op_type" t-key="op_type_index">-->
 <!--							<div class="col-sm-12 col-md-6 col-lg-3" t-att-id="op_type" t-on-click="onclick_tiles">-->
-<!--								<div t-attf-class="dashboard-card dashboard-card&#45;&#45;border-top dashboard-card&#45;&#45;border-top-#{state.colors[op_type_index]}">-->
+<!--								<div t-attf-class="dashboard-js dashboard-js&#45;&#45;border-top dashboard-js&#45;&#45;border-top-#{state.colors[op_type_index]}">-->
 <!--									<div class="dashboard-card__details">-->
 <!--										<span class="dashboard-card__title">-->
 <!--											<t t-out="state.operations[op_type]"/>-->

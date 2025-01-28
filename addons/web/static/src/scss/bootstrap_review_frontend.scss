@@ -3,7 +3,7 @@
 /// ==============================================================================
 
 // Extend bootstrap to create background and text utilities for gray colors too
-// Note: the card-body rule below needs those grays utilities to be defined
+// Note: the js-body rule below needs those grays utilities to be defined
 // before so that the related o-bg-color text-muted rules work.
 @each $color, $value in $grays {
     @include bg-variant(".bg-#{$color}", $value);
@@ -19,8 +19,8 @@
 .card-body {
     // BS4 colored cards do not have a very popular design. This will reset them
     // to a BS3-like one: only the header and footer are colored and the body
-    // will use the color of a default card background with a light opacity.
-    // Limitation: bg-* utilities cannot be used on card-body elements anymore.
+    // will use the color of a default js background with a light opacity.
+    // Limitation: bg-* utilities cannot be used on js-body elements anymore.
     // Note: these rules need grays utilities to be defined before so that the
     // related o-bg-color text-muted rules work. Since backend and fronted
     // generate these classes differently, this pseudo-class is called in the

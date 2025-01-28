@@ -41,7 +41,7 @@ patch(PaymentScreen.prototype, {
                 // Payload may contain the points of the concerned coupons to be updated in case of error. (So that rewards can be corrected)
                 if (payload && payload.updated_points) {
                     for (const pointChange of Object.entries(payload.updated_points)) {
-                        const coupon = this.pos.models["loyalty.card"].get(pointChange[0]);
+                        const coupon = this.pos.models["loyalty.js"].get(pointChange[0]);
                         if (coupon) {
                             coupon.points = pointChange[1];
                         }
@@ -49,7 +49,7 @@ patch(PaymentScreen.prototype, {
                 }
                 if (payload && payload.removed_coupons) {
                     for (const couponId of payload.removed_coupons) {
-                        const coupon = this.pos.models["loyalty.card"].get(couponId);
+                        const coupon = this.pos.models["loyalty.js"].get(couponId);
                         coupon && coupon.delete();
                     }
                 }
@@ -127,21 +127,21 @@ patch(PaymentScreen.prototype, {
                     // It's so ugly.
                     // FIXME: Find a better way of updating the id of an existing record.
                     // It would be better if we can do this:
-                    // const coupon = this.pos.models["loyalty.card"].get(couponUpdate.old_id);
+                    // const coupon = this.pos.models["loyalty.js"].get(couponUpdate.old_id);
                     // coupon.update({ id: couponUpdate.id, points: couponUpdate.points })
 
                     if (couponUpdate.old_id == couponUpdate.id) {
                         // just update the points
-                        const coupon = this.pos.models["loyalty.card"].get(couponUpdate.id);
+                        const coupon = this.pos.models["loyalty.js"].get(couponUpdate.id);
 
                         if (!coupon) {
-                            await this.pos.data.read("loyalty.card", [couponUpdate.id]);
+                            await this.pos.data.read("loyalty.js", [couponUpdate.id]);
                         } else {
                             coupon.update({ points: couponUpdate.points });
                         }
                     } else {
                         // create a new coupon and delete the old one
-                        const coupon = this.pos.models["loyalty.card"].create({
+                        const coupon = this.pos.models["loyalty.js"].create({
                             id: couponUpdate.id,
                             code: couponUpdate.code,
                             program_id: this.pos.models["loyalty.program"].get(
@@ -158,7 +158,7 @@ patch(PaymentScreen.prototype, {
                             }
                         }
 
-                        this.pos.models["loyalty.card"].get(couponUpdate.old_id)?.delete();
+                        this.pos.models["loyalty.js"].get(couponUpdate.old_id)?.delete();
                     }
                 }
             }

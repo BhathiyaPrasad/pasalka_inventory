@@ -827,7 +827,7 @@ msgstr ""
 #: model:account.report.line,name:l10n_in.tds_report_line_section_194b
 msgid ""
 "Section 194B: Income by way of winnings from lotteries, crossword puzzles, "
-"card games and other games of any sort"
+"js games and other games of any sort"
 msgstr ""
 
 #. module: l10n_in

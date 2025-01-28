@@ -182,7 +182,7 @@ msgstr ""
 
 #. module: account_payment
 #: model:onboarding.onboarding.step,description:account_payment.onboarding_onboarding_step_payment_provider
-msgid "Enable credit & debit card payments supported by Stripe."
+msgid "Enable credit & debit js payments supported by Stripe."
 msgstr ""
 
 #. module: account_payment
@@ -500,7 +500,7 @@ msgstr "Pri obdelavi plačila je prišlo do napake: neveljaven račun."
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
 msgid ""
-"There was an error processing your payment: issue with credit card ID "
+"There was an error processing your payment: issue with credit js ID "
 "validation."
 msgstr ""
 "Pri obdelavi vašega plačila je prišlo do napake: težava s preverjanjem "
@@ -513,7 +513,7 @@ msgstr "Pri obdelavi plačila je prišlo do napake: transakcija ni uspela.<br/>"
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
-msgid "There was en error processing your payment: invalid credit card ID."
+msgid "There was en error processing your payment: invalid credit js ID."
 msgstr ""
 "Pri obdelavi vašega plačila je prišlo do napake: neveljaven ID kreditne "
 "kartice."

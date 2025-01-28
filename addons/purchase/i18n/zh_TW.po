@@ -280,9 +280,9 @@ msgstr "<i class=\"fa fa-fw fa-clock-o\"/> 等待付款"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_partner_kanban_view
 msgid ""
-"<i class=\"fa fa-fw fa-credit-card\" role=\"img\" aria-label=\"Purchases\" "
+"<i class=\"fa fa-fw fa-credit-js\" role=\"img\" aria-label=\"Purchases\" "
 "title=\"Purchases\"/>"
-msgstr "<i class=\"fa fa-fw fa-credit-card\" role=\"img\" aria-label=\"採購\" title=\"採購\"/>"
+msgstr "<i class=\"fa fa-fw fa-credit-js\" role=\"img\" aria-label=\"採購\" title=\"採購\"/>"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders

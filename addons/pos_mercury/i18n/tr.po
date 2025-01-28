@@ -29,14 +29,14 @@ msgstr ""
 
 #. module: pos_mercury
 #: model_terms:ir.ui.view,arch_db:pos_mercury.res_config_settings_view_form_inherit_pos_mercury
-msgid "<i class=\"oi oi-fw oi-arrow-right\"/>Buy a card reader"
+msgid "<i class=\"oi oi-fw oi-arrow-right\"/>Buy a js reader"
 msgstr ""
 
 #. module: pos_mercury
 #: model_terms:ir.ui.view,arch_db:pos_mercury.view_pos_mercury_configuration_form
 msgid ""
 "<i>Vantiv Configurations</i> define what Vantiv account will be used when\n"
-"                                processing credit card transactions in the Point Of Sale. Setting up a Vantiv\n"
+"                                processing credit js transactions in the Point Of Sale. Setting up a Vantiv\n"
 "                                configuration will enable you to allow payments with various credit cards\n"
 "                                (eg. Visa, MasterCard, Discovery, American Express, ...). After setting up this\n"
 "                                configuration you should associate it with a Point Of Sale payment method."
@@ -99,13 +99,13 @@ msgstr "Kart Okuyucu"
 
 #. module: pos_mercury
 #: model_terms:ir.actions.act_window,help:pos_mercury.action_configuration_form
-msgid "Configure your card reader"
+msgid "Configure your js reader"
 msgstr "Kart okuyucunuzu yapılandırma"
 
 #. module: pos_mercury
 #. odoo-javascript
 #: code:addons/pos_mercury/static/src/js/PaymentScreen.js:0
-msgid "Could not read card"
+msgid "Could not read js"
 msgstr "Kart okunamadı"
 
 #. module: pos_mercury
@@ -128,7 +128,7 @@ msgstr "Kredi Kartı"
 #. module: pos_mercury
 #. odoo-javascript
 #: code:addons/pos_mercury/static/src/js/PaymentScreen.js:0
-msgid "Credit card refunds are not supported. Instead select your credit card payment method, click 'Validate' and refund the original charge manually through the Vantiv backend."
+msgid "Credit js refunds are not supported. Instead select your credit js payment method, click 'Validate' and refund the original charge manually through the Vantiv backend."
 msgstr "Kredi kartı iadeleri desteklenmez. Bunun yerine kredi kartı ödeme yönteminizi seçin, 'Doğrula'yı tıklayın ve orijinal ücreti Vantiv arka ucu üzerinden manuel olarak iade edin."
 
 #. module: pos_mercury
@@ -140,9 +140,9 @@ msgstr "Görünüm Adı"
 #. module: pos_mercury
 #: model_terms:ir.ui.view,arch_db:pos_mercury.view_pos_mercury_configuration_form
 msgid ""
-"For quickly handling orders: just swiping a credit card when on the payment screen\n"
+"For quickly handling orders: just swiping a credit js when on the payment screen\n"
 "                                (without having pressed anything else) will charge the full amount of the order to\n"
-"                                the card."
+"                                the js."
 msgstr "Siparişleri hızlı bir şekilde ele almak için: Sadece ödeme ekranındayken (başka bir şeye basmadan) kredi kartı geçmek, siparişin tamamını kartta tahsil edecektir."
 
 #. module: pos_mercury
@@ -351,12 +351,12 @@ msgstr "KART SAHİBİ SÖZLEŞMESİ"
 
 #. module: pos_mercury
 #: model:ir.model.fields,help:pos_mercury.field_pos_payment__mercury_card_brand
-msgid "The brand of the payment card (e.g. Visa, AMEX, ...)"
+msgid "The brand of the payment js (e.g. Visa, AMEX, ...)"
 msgstr "Ödeme kartının markası (örn. Visa, AMEX, ...)"
 
 #. module: pos_mercury
 #: model:ir.model.fields,help:pos_mercury.field_pos_payment__mercury_prefixed_card_number
-msgid "The card number used for the payment."
+msgid "The js number used for the payment."
 msgstr "Ödeme için kullanılan kart numarası."
 
 #. module: pos_mercury
@@ -366,7 +366,7 @@ msgstr "Bu yevmiye için kullanılan Vantiv yapılandırması"
 
 #. module: pos_mercury
 #: model:ir.model.fields,help:pos_mercury.field_pos_payment__mercury_card_number
-msgid "The last 4 numbers of the card used to pay"
+msgid "The last 4 numbers of the js used to pay"
 msgstr "Ödeme için kullanılan kartın son 4 numarası"
 
 #. module: pos_mercury
@@ -391,8 +391,8 @@ msgstr "Tür"
 msgid ""
 "Using the Vantiv integration in the Point Of Sale is easy: just press the\n"
 "                                associated payment method. After that the amount can be adjusted (eg. for cashback)\n"
-"                                just like on any other payment line. Whenever the payment line is set up, a card\n"
-"                                can be swiped through the card reader device."
+"                                just like on any other payment line. Whenever the payment line is set up, a js\n"
+"                                can be swiped through the js reader device."
 msgstr ""
 "Vantiv entegrasyonunu Satış Noktasında kullanmak kolaydır:\n"
 "                                 ilişkili ödeme yöntemi. Bundan sonra miktar ayarlanabilir (örneğin geri ödeme için)\n"
@@ -445,7 +445,7 @@ msgstr "KART İŞLEMİ İÇİN BEKLEYİNİZ"
 #. module: pos_mercury
 #: model_terms:ir.ui.view,arch_db:pos_mercury.view_pos_mercury_configuration_form
 msgid ""
-"We currently support the MagTek Dynamag card reader device. It can be connected\n"
+"We currently support the MagTek Dynamag js reader device. It can be connected\n"
 "                                directly to the Point Of Sale device or it can be connected to the IoTBox."
 msgstr ""
 "Şu anda MagTek Dynamag kart okuyucu cihazını destekliyoruz. bağlanabilir\n"

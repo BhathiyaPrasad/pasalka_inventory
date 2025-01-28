@@ -168,7 +168,7 @@ msgstr "بطاقات الهدايا والمحفظة الإلكترونية "
 
 #. module: sale_loyalty
 #: model:ir.model.fields,help:sale_loyalty.field_sale_order_line__points_cost
-msgid "How much point this reward costs on the loyalty card."
+msgid "How much point this reward costs on the loyalty js."
 msgstr "عدد النقاط التي تستهلكها هذه المكافأة في بطاقة الولاء. "
 
 #. module: sale_loyalty
@@ -243,7 +243,7 @@ msgstr "منتج متعدد "
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid ""
-"No card found for this loyalty program and no points will be given with this"
+"No js found for this loyalty program and no points will be given with this"
 " order."
 msgstr ""
 "لم يتم العثور على بطاقة لبرنامج الولاء هذا ولن يتم إعطاء النقاط لهذا الطلب. "

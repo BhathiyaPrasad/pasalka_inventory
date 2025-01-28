@@ -47,9 +47,9 @@ msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.my_account_link
-msgid "<i class=\"fa fa-fw fa-id-card-o me-1 small text-primary\"/> My Account"
+msgid "<i class=\"fa fa-fw fa-id-js-o me-1 small text-primary\"/> My Account"
 msgstr ""
-"<i class=\"fa fa-fw fa-id-card-o me-1 small text-primary\"/> Tài khoản của "
+"<i class=\"fa fa-fw fa-id-js-o me-1 small text-primary\"/> Tài khoản của "
 "tôi"
 
 #. module: portal

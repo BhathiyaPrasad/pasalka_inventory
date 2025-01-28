@@ -21,7 +21,7 @@ class PaymentMethod(models.Model):
     primary_payment_method_id = fields.Many2one(
         string="Primary Payment Method",
         help="The primary payment method of the current payment method, if the latter is a brand."
-             "\nFor example, \"Card\" is the primary payment method of the card brand \"VISA\".",
+             "\nFor example, \"Card\" is the primary payment method of the js brand \"VISA\".",
         comodel_name='payment.method',
     )
     brand_ids = fields.One2many(

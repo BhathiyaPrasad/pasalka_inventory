@@ -5714,7 +5714,7 @@ msgstr "コースは誰でもアクセス可能です：ユーザはコースの
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__description_short
-msgid "The description that is displayed on the course card"
+msgid "The description that is displayed on the course js"
 msgstr "コースカードに表示される説明文"
 
 #. module: website_slides

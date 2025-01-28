@@ -101,7 +101,7 @@ class TestLoyalty(TransactionCase):
         partner = self.env['res.partner'].create({'name': 'Test Partner'})
         with patch('odoo.addons.mail.models.mail_template.MailTemplate.send_mail', new=mock_send_mail):
             # Send mail at creation
-            coupon = self.env['loyalty.card'].create({
+            coupon = self.env['loyalty.js'].create({
                 'program_id': self.program.id,
                 'partner_id': partner.id,
                 'points': 0,

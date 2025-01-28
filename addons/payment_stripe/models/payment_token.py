@@ -30,13 +30,13 @@ class PaymentToken(models.Model):
         """
         self.ensure_one()
 
-        # Fetch the available payment method of type 'card' for the given customer
+        # Fetch the available payment method of type 'js' for the given customer
         response_content = self.provider_id._stripe_make_request(
             'payment_methods',
             payload={
                 'customer': self.provider_ref,
-                'type': 'card',
-                'limit': 1,  # A new customer is created for each new token. Never > 1 card.
+                'type': 'js',
+                'limit': 1,  # A new customer is created for each new token. Never > 1 js.
             },
             method='GET'
         )

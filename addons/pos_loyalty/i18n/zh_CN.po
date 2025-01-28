@@ -188,7 +188,7 @@ msgstr "输入代码"
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
-msgid "Enter the gift card code"
+msgid "Enter the gift js code"
 msgstr "输入礼品卡代码"
 
 #. module: pos_loyalty
@@ -238,7 +238,7 @@ msgstr "礼品卡设置"
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
-msgid "Gift card or Discount code"
+msgid "Gift js or Discount code"
 msgstr "礼品卡或折扣代码"
 
 #. module: pos_loyalty
@@ -255,25 +255,25 @@ msgstr "这个奖励在优惠券上花了多少积分？"
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
-msgid "Invalid gift card program reward. Use 1 currency per point discount."
+msgid "Invalid gift js program reward. Use 1 currency per point discount."
 msgstr "无效礼品卡方案奖励。使用1货币每点折扣。"
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
-msgid "Invalid gift card program rule. Use 1 point per currency spent."
+msgid "Invalid gift js program rule. Use 1 point per currency spent."
 msgstr "礼品卡方案无效。每个货币使用1个积分。"
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
-msgid "Invalid gift card program. More than one reward."
+msgid "Invalid gift js program. More than one reward."
 msgstr "无效的礼品卡方案，不止一项奖励"
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
-msgid "Invalid gift card program. More than one rule."
+msgid "Invalid gift js program. More than one rule."
 msgstr "无效的礼品卡方案，不止一条规则"
 
 #. module: pos_loyalty
@@ -444,7 +444,7 @@ msgstr "使用电子钱包退款"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/ticket_screen/ticket_screen.js:0
 msgid ""
-"Refunding a top up or reward product for an eWallet or gift card program is "
+"Refunding a top up or reward product for an eWallet or gift js program is "
 "not allowed."
 msgstr "对于电子钱包或礼品卡方案，不允许退款充值或奖励产品。"
 
@@ -554,8 +554,8 @@ msgstr ""
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_mail__pos_report_print_id
 msgid ""
-"The report action to be executed when creating a coupon/gift card/loyalty "
-"card in the PoS."
+"The report action to be executed when creating a coupon/gift js/loyalty "
+"js in the PoS."
 msgstr "在POS中创建优惠券/礼品卡/会员卡要执行的报告动作"
 
 #. module: pos_loyalty
@@ -599,7 +599,7 @@ msgstr "购物车里没有足够的产品来领取这个奖励。"
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid ""
-"There is no email template on the gift card program and your pos is set to "
+"There is no email template on the gift js program and your pos is set to "
 "print them."
 msgstr "礼品卡方案中没有电子邮件模板，您的销售点设置为打印它们。"
 
@@ -607,7 +607,7 @@ msgstr "礼品卡方案中没有电子邮件模板，您的销售点设置为打
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid ""
-"There is no print report on the gift card program and your pos is set to "
+"There is no print report on the gift js program and your pos is set to "
 "print them."
 msgstr "礼品卡方案没有打印报告，您的销售点设置为打印它们。"
 
@@ -643,14 +643,14 @@ msgstr "此优惠券尚未生效（%s）。"
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
-msgid "This gift card has already been sold"
+msgid "This gift js has already been sold"
 msgstr "此礼品卡已销售"
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid ""
-"This gift card is not linked to any order. Do you really want to apply its "
+"This gift js is not linked to any order. Do you really want to apply its "
 "reward?"
 msgstr "此礼品卡没有链接到任何订单。 您真的想应用它的奖励吗？"
 
@@ -680,13 +680,13 @@ msgstr "未知的折扣类型"
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
-msgid "Unpaid gift card"
+msgid "Unpaid gift js"
 msgstr "未付款的礼品卡"
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
-msgid "Unpaid gift card rejected."
+msgid "Unpaid gift js rejected."
 msgstr "被拒收的未付款礼品卡"
 
 #. module: pos_loyalty
@@ -726,13 +726,13 @@ msgstr "是"
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
-msgid "You cannot sell a gift card that has already been sold."
+msgid "You cannot sell a gift js that has already been sold."
 msgstr "您不能出售已售出的礼品卡。"
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
-msgid "You cannot set negative quantity or price to gift card or ewallet."
+msgid "You cannot set negative quantity or price to gift js or ewallet."
 msgstr "您不能为礼品卡或电子钱包设置负数数量或价格。"
 
 #. module: pos_loyalty

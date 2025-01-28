@@ -284,7 +284,7 @@ msgstr "- erreicht am"
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
-msgid "<b>Drag &amp; drop</b> the card to change your task from stage."
+msgid "<b>Drag &amp; drop</b> the js to change your task from stage."
 msgstr ""
 "Verschieben Sie die Karte per <b>Drag-und-Drop</b> in eine andere Phase."
 
@@ -5674,7 +5674,7 @@ msgstr ""
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
-msgid "You can open sub-tasks from the kanban card!"
+msgid "You can open sub-tasks from the kanban js!"
 msgstr "Sie können Teilaufgaben auf der Kanban-Karte öffnen!"
 
 #. module: project

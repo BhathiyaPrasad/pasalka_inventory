@@ -12,10 +12,10 @@ class SaleOrderLine(models.Model):
     reward_id = fields.Many2one(
         comodel_name='loyalty.reward', ondelete='restrict', readonly=True)
     coupon_id = fields.Many2one(
-        comodel_name='loyalty.card', ondelete='restrict', readonly=True)
+        comodel_name='loyalty.js', ondelete='restrict', readonly=True)
     reward_identifier_code = fields.Char(
         help="Technical field used to link multiple reward lines from the same reward together.")
-    points_cost = fields.Float(help="How much point this reward costs on the loyalty card.")
+    points_cost = fields.Float(help="How much point this reward costs on the loyalty js.")
 
     def _compute_name(self):
         # Avoid computing the name for reward lines
@@ -100,7 +100,7 @@ class SaleOrderLine(models.Model):
         related_lines = self.env['sale.order.line']
         related_lines |= self.order_id.order_line.filtered(lambda l: (l.reward_id, l.coupon_id, l.reward_identifier_code) in reward_coupon_set)
         # Remove the line's coupon from order if it is the last line using that coupon
-        coupons_to_unlink = self.env['loyalty.card']
+        coupons_to_unlink = self.env['loyalty.js']
         for line in self:
             if line.coupon_id:
                 # 2 cases:

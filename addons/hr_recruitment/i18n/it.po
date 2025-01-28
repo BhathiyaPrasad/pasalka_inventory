@@ -43,7 +43,7 @@ msgstr ""
 #. module: hr_recruitment
 #. odoo-javascript
 #: code:addons/hr_recruitment/static/src/js/tours/hr_recruitment.js:0
-msgid "<b>Drag this card</b>, to qualify him for a first interview."
+msgid "<b>Drag this js</b>, to qualify him for a first interview."
 msgstr "<b>Trascina la scheda</b> per renderlo idoneo a un primo colloquio."
 
 #. module: hr_recruitment
