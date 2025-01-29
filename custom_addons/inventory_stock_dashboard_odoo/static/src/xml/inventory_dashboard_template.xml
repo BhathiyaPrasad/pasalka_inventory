@@ -4,62 +4,62 @@
 	<t t-name="Dashboard" owl="1">
 		<div class="oh_dashboards" t-ref="root" style="height:100%; overflow-y: scroll; overflow-x: hidden;">
 			<!-- Tiles -->
-			<div class="tiles">
-				<div class="container-fluid py-5">
-					<div class="row" id="set">
-						<t t-foreach="state.op_types" t-as="op_type" t-key="op_type_index">
-							<div class="col-sm-12 col-md-6 col-lg-3" t-att-id="op_type" t-on-click="onclick_tiles">
-								<div t-attf-class="dashboard-card dashboard-card--border-top dashboard-card--border-top-#{state.colors[op_type_index]}">
-									<div class="dashboard-card__details">
-										<span class="dashboard-card__title">
-											<t t-out="state.operations[op_type]"/>
-										</span>
-										<span class="count-container"><t t-out="state.op_types[op_type]"/></span>
-									</div>
-									<ul class="dashboard-card__stats">
-										<t t-if="op_type in state.late_status">
-											<li class="dashboard-card__stat_late" t-att-id="op_type" t-on-click="onclick_late_status">
-												<div class="d-flex justify-content-between align-items-center text-dark text-decoration-none">
-													<div class="dashboard-card__stat-title_late">
-														Late
-													</div>
-													<div class="dashboard-card__stat-count_late">
-														<t t-out="state.late_status[op_type]"/>
-													</div>
-												</div>
-											</li>
-										</t>
-										<t t-if="op_type in state.waiting_status">
-											<li class="dashboard-card__stat_waiting" t-att-id="op_type" t-on-click="onclick_waiting_status">
-												<div class="d-flex justify-content-between align-items-center text-dark text-decoration-none">
-													<div class="dashboard-card__stat-title_waiting">
-														Waiting
-													</div>
-													<div class="dashboard-card__stat-count_waiting">
-														<t t-out="state.waiting_status[op_type]"/>
-													</div>
-												</div>
-											</li>
-										</t>
-										<t t-if="op_type in state.backorder_status">
-											<li class="dashboard-card__stat_backorder" t-att-id="op_type" t-on-click="onclick_backorders_status">
-												<div class="d-flex justify-content-between align-items-center text-dark text-decoration-none">
-													<div class="dashboard-card__stat-title_backorder">
-														Backorder
-													</div>
-													<div class="dashboard-card__stat-count_backorder">
-														<t t-out="state.backorder_status[op_type]"/>
-													</div>
-												</div>
-											</li>
-										</t>
-									</ul>
-								</div>
-							</div>
-						</t>
-					</div>
-				</div>
-			</div>
+<!--			<div class="tiles">-->
+<!--				<div class="container-fluid py-5">-->
+<!--					<div class="row" id="set">-->
+<!--						<t t-foreach="state.op_types" t-as="op_type" t-key="op_type_index">-->
+<!--							<div class="col-sm-12 col-md-6 col-lg-3" t-att-id="op_type" t-on-click="onclick_tiles">-->
+<!--								<div t-attf-class="dashboard-card dashboard-card&#45;&#45;border-top dashboard-card&#45;&#45;border-top-#{state.colors[op_type_index]}">-->
+<!--									<div class="dashboard-card__details">-->
+<!--										<span class="dashboard-card__title">-->
+<!--											<t t-out="state.operations[op_type]"/>-->
+<!--										</span>-->
+<!--										<span class="count-container"><t t-out="state.op_types[op_type]"/></span>-->
+<!--									</div>-->
+<!--									<ul class="dashboard-card__stats">-->
+<!--										<t t-if="op_type in state.late_status">-->
+<!--											<li class="dashboard-card__stat_late" t-att-id="op_type" t-on-click="onclick_late_status">-->
+<!--												<div class="d-flex justify-content-between align-items-center text-dark text-decoration-none">-->
+<!--													<div class="dashboard-card__stat-title_late">-->
+<!--														Late-->
+<!--													</div>-->
+<!--													<div class="dashboard-card__stat-count_late">-->
+<!--														<t t-out="state.late_status[op_type]"/>-->
+<!--													</div>-->
+<!--												</div>-->
+<!--											</li>-->
+<!--										</t>-->
+<!--										<t t-if="op_type in state.waiting_status">-->
+<!--											<li class="dashboard-card__stat_waiting" t-att-id="op_type" t-on-click="onclick_waiting_status">-->
+<!--												<div class="d-flex justify-content-between align-items-center text-dark text-decoration-none">-->
+<!--													<div class="dashboard-card__stat-title_waiting">-->
+<!--														Waiting-->
+<!--													</div>-->
+<!--													<div class="dashboard-card__stat-count_waiting">-->
+<!--														<t t-out="state.waiting_status[op_type]"/>-->
+<!--													</div>-->
+<!--												</div>-->
+<!--											</li>-->
+<!--										</t>-->
+<!--										<t t-if="op_type in state.backorder_status">-->
+<!--											<li class="dashboard-card__stat_backorder" t-att-id="op_type" t-on-click="onclick_backorders_status">-->
+<!--												<div class="d-flex justify-content-between align-items-center text-dark text-decoration-none">-->
+<!--													<div class="dashboard-card__stat-title_backorder">-->
+<!--														Backorder-->
+<!--													</div>-->
+<!--													<div class="dashboard-card__stat-count_backorder">-->
+<!--														<t t-out="state.backorder_status[op_type]"/>-->
+<!--													</div>-->
+<!--												</div>-->
+<!--											</li>-->
+<!--										</t>-->
+<!--									</ul>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</t>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
 			<!-- Graphs -->
 			<div class="row mt-4 px-4" id="graphs" style="padding-bottom:30px;">
 				<!-- Top moving products - bar graph -->
